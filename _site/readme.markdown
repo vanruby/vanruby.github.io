@@ -1,3 +1,0 @@
-# VanRuby
-
-More coming soon...
