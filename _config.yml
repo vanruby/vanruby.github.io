@@ -27,3 +27,8 @@ members:
     blurb: Web monkey
     twitter: CharlesEllery
     url: https://medeo.ca
+  - name: Matthew Robertson
+    gravatar: matthew@cloudclinic.ca
+    blurb: "A Vancouver based web developer"
+    twitter: mattdrobertson
+    url: http://matthewrobertson.org
