@@ -4,3 +4,26 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
+
+## Add yourself as a member of the community below :-)
+members:
+  - name: Kalvir Sandhu
+    gravatar: kalv@kalv.co.uk
+    blurb: "A creative developer building things for the web & mobile with Node.js & Ruby. Brit living in Canada building @caliper. Organizer of Vancouver ruby meetup."
+    twitter: kalv
+    url: https://caliper.io
+  - name: Godfrey Chan
+    gravatar: godfreykfc@gmail.com
+    blurb: "A web and software developer who is passionate about building innovative, powerful and yet easy-to-use software to help users solve everyday problems."
+    twitter: ChanCanCode
+    url: https://caliper.io
+  - name: Loki Meyburg
+    gravatar: loki@medeo.ca
+    blurb: "Building @Medeo. Internet denizen."
+    twitter: LokiMeyburg
+    url: https://medeo.ca
+  - name: Charles Ellery Bergeron
+    gravatar: charles@medeo.ca
+    blurb: Web monkey
+    twitter: CharlesEllery
+    url: https://medeo.ca
