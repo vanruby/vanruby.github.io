@@ -33,4 +33,8 @@ members:
     blurb: "A Vancouver based web developer"
     twitter: mattdrobertson
     url: http://matthewrobertson.org
-
+  - name: Brent Vatne
+    gravatar: brentvatne@gmail.com
+    blurb: "Co-organizer of VanRuby meetups, consultant with Madriska. Currently traveling Europe/America, but will back in Vancouver soon!"
+    twitter: notbrent
+    url: http://www.github.com/brentvatne
