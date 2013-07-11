@@ -13,11 +13,6 @@ members:
     blurb: "Organizer of VanRuby meetups, co-founder of @caliper.io. Been hacking with Ruby for over 5 years"
     twitter: kalv
     url: http://caliper.io
-  - name: Matt Smith
-    gravatar: mattr.smith@gmail.com
-    blurb: "Organizer of VanRuby meetups, co-founder of Thinkific.com, loves building amazing shit!"
-    twitter: symana
-    url: http://www.thinkific.com
   - name: Godfrey Chan
     gravatar: godfreykfc@gmail.com
     blurb: "Working with @kalv on @caliper. Contributes to open-source projects and hacks on cool side projects in my free time"
@@ -43,3 +38,8 @@ members:
     blurb: "Co-organizer of VanRuby meetups, consultant with Madriska. Currently traveling Europe/America, but will back in Vancouver soon!"
     twitter: notbrent
     url: http://www.github.com/brentvatne
+  - name: Matt Smith
+    gravatar: mattr.smith@gmail.com
+    blurb: "Co-organizer of VanRuby meetups, co-founder of Thinkific.com, loves building amazing shit!"
+    twitter: symana
+    url: http://www.thinkific.com
