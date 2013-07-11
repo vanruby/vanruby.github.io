@@ -12,12 +12,12 @@ members:
     gravatar: kalv@kalv.co.uk
     blurb: "Organizer of VanRuby meetups, co-founder of @caliper.io. Been hacking with Ruby for over 5 years"
     twitter: kalv
-    url: https://caliper.io
+    url: http://caliper.io
   - name: Godfrey Chan
     gravatar: godfreykfc@gmail.com
     blurb: "Working with @kalv on @caliper. Contributes to open-source projects and hacks on cool side projects in my free time"
     twitter: ChanCanCode
-    url: https://caliper.io
+    url: http://caliper.io
   - name: Loki Meyburg
     gravatar: loki@medeo.ca
     blurb: "Building @Medeo by day. #VanRuby hacking by night. @Crossfit604 in the morning. Motto: simplify."
@@ -33,4 +33,8 @@ members:
     blurb: "A Vancouver based web developer"
     twitter: mattdrobertson
     url: http://matthewrobertson.org
-
+  - name: Brent Vatne
+    gravatar: brentvatne@gmail.com
+    blurb: "Co-organizer of VanRuby meetups, consultant with Madriska. Currently traveling Europe/America, but will back in Vancouver soon!"
+    twitter: notbrent
+    url: http://www.github.com/brentvatne
