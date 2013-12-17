@@ -1494,7 +1494,7 @@ a.muted:focus {
   /* 16px */
 
   border-bottom: 2px solid #2c3e50;
-  border-left: 2px solid #2c3e50;
+  /*border-left: 2px solid #2c3e50;*/
   color: #ffffff;
   padding: 16px 20px 15px;
 }
