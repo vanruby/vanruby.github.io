@@ -1,4 +1,4 @@
-pygments: true
+highlighter: 'pygments'
 markdown: rdiscount
 permalink: /posts/:title
 rdiscount:
