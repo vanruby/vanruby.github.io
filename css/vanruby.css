@@ -1,10 +1,14 @@
-.jumbotron {
-  margin-top: 20px;
-}
-
 body {
   font-size: 17px;
   color: #333;
   padding-top: 70px;
   padding-bottom: 30px;
+}
+
+.glyphicon {
+  top: 5px;
+}
+
+.jumbotron {
+  margin-top: 20px;
 }
