@@ -3,30 +3,25 @@ layout: layout
 title: "VanRuby - Vancouver Ruby on Rails Group"
 ---
 
-<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
-  <div class="row">
-    <div class="span12">
+<div class="row">
+  <div class="col-md-12">
+    <h1>Friends</h1>
+    <p>We hope to curate a list of those dear to our community. Yes, yes, it's super incomplete at the moment - but we're just getting started. <a href="http://www.youtube.com/watch?v=NQ-8IuUkJJc&feature=youtu.be&t=1m45s" target="_blank">The complete list has to be at least three times bigger than this.</a></p>
 
-      <h4>Friends</h4>
-      <p>We hope to curate a list of those dear to our community. Yes, yes, it's super incomplete at the moment - but we're just getting started. <a href="http://www.youtube.com/watch?v=NQ-8IuUkJJc&feature=youtu.be&t=1m45s" target="_blank">The complete list has to be at least three times bigger than this.</a></p>
-
-      {% for member in site.members %}
-        <div class="media well">
-          <img class="media-object pull-left" data-gravatar-email="{{ member.gravatar }}" src="images/blank-avatar.png">
-          <div class="media-body">
-            <strong class="media-heading">{{ member.name }}</strong> <br />
-            {{ member.blurb }}
-            <div>
-              <a href="https://twitter.com/{{ member.twitter }}"><span class="fui-twitter"></span> {{ member.twitter }}</a>
-              &#183;
-              <a href="{{ member.url }}"><span class="fui-link"></span> {{ member.url }}</a>
-            </div>
+    {% for member in site.members %}
+      <div class="media well">
+        <img class="media-object pull-left" data-gravatar-email="{{ member.gravatar }}" src="images/blank-avatar.png">
+        <div class="media-body">
+          <strong class="media-heading">{{ member.name }}</strong> <br />
+          {{ member.blurb }}
+          <div>
+            <a href="https://twitter.com/{{ member.twitter }}"><span class="fui-twitter"></span> {{ member.twitter }}</a>
+            &#183;
+            <a href="{{ member.url }}"><span class="fui-link"></span> {{ member.url }}</a>
           </div>
         </div>
-      {% endfor %}
+      </div>
+    {% endfor %}
 
-
-
-    </div>
   </div>
 </div>

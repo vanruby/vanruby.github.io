@@ -1,9 +1,10 @@
-.media-object {
-  width: 64px;
-  height: 64px;
+.jumbotron {
+  margin-top: 20px;
 }
 
-.center {
-  text-align: center;
-
+body {
+  font-size: 17px;
+  color: #333;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
