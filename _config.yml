@@ -9,12 +9,12 @@ rdiscount:
 members:
   - name: Kalvir Sandhu
     gravatar: kalv@kalv.co.uk
-    blurb: "Organizer of VanRuby meetups, co-founder of @brewhouseteam.io. Been hacking with Ruby for over 5 years"
+    blurb: "Organizer of VanRuby, co-founder of @brewhouseteam / @goodbitsio. Been building products with Ruby/Rails for over 7 years."
     twitter: kalv
     url: http://brewhouse.io/
   - name: Godfrey Chan
     gravatar: godfreykfc@gmail.com
-    blurb: "Working with @kalv on @brewhouseteam. Contributes to open-source projects and hacks on cool side projects in my free time"
+    blurb: "Working at @brewhouseteam. Core contributor to Rails."
     twitter: ChanCanCode
     url: http://brewhouse.io/
   - name: Loki Meyburg
@@ -24,7 +24,7 @@ members:
     url: https://medeo.ca
   - name: Charles Bergeron
     gravatar: hello@charlesbergeron.ca
-    blurb: "Programmer, designer, musician – Building @caliper. When possible, do the cycling and yogi roles."
+    blurb: "Programmer, designer, musician – Develops and Designs at @brewhouseteam. When possible, do the cycling and yogi roles."
     twitter: ChuckBergeron
     url: http://charlesbergeron.ca
   - name: Matthew Robertson
