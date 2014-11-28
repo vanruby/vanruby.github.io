@@ -11,4 +11,7 @@ body {
 
 .jumbotron {
   margin-top: 20px;
+
+.company .hide-overflow {
+  overflow:hidden;
 }

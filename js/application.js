@@ -12,5 +12,7 @@
     }
   });
 
+  $("a[data-toggle='tooltip']").tooltip();
+
 
 })(jQuery);
