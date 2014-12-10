@@ -1,0 +1,38 @@
+---
+layout: layout
+title: "VanRuby - Local Companies"
+---
+
+<div class="row">
+  <div class="col-md-12">
+
+    <h1>Companies</h1>
+    <p>Here is a list of companies that developers in or around Vancouver are working for. Kindly first put together from <a href="http://ca.linkedin.com/in/ericbrooke/" target="_blank">Eric Brookes</a>.</p>
+
+    <p>To be a part of these {{site.data.companies.size}} companies working with Ruby, modify the <a href="https://github.com/vanruby/vanruby.github.io/blob/master/_data/companies.csv">company list</a> and submit a Pull Request.</p>
+
+    <table class="table companies">
+      <tr>
+        <th>Name</th>
+        <th>Codebase</th>
+        <th>Market</th>
+        <th>Location</th>
+        <th>Team Size <a href="#" data-toggle="tooltip" data-placement="bottom" title="Micro 1-3, Small 4-7, Medium 7- 10,Large 11+">?</a></th>
+        <th>Other Technologies</th>
+        <th>Ruby role</th>
+      </tr>
+      {% for company in site.data.companies %}
+        <tr class="company">
+          <td><a href="{{ company.website }}" target="_blank">{{ company.name }}</a></td>
+          <td>{{ company.codebase }}</td>
+          <td>{{ company.market }}</td>
+          <td>{{ company.location }}</td>
+          <td>{{ company.team_size }}</td>
+          <td>{{ company.technologies }}</td>
+          <td>{{ company.ruby_role }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+  </div>
+</div>
