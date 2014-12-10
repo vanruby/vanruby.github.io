@@ -1,6 +1,6 @@
 name,codebase,market,website,location,team_size,technologies,ruby_role
 ACL,Rails,Finance/Audit,http://www.acl.com,"Coal Harbour, Vancouver",Medium," "," "
-ActiveState,Sinatra,IT,http://www.activestate.com/,Downtown Vancouver,Medium,"Sinatra+Sequel (+ Go, Node.js, client-side JS/Backbone)"," "
+ActiveState,Ruby,Enterprise/IT,http://www.activestate.com/,Downtown Vancouver,Large,"Sinatra, Go, JavaScript, NodeJS, Python, Perl, Tcl, Bash, Java, MongoDB, Postgresql, MySQL, Redis, Memcached, Harbor, Jenkins","<a href='http://www.activestate.com/stackato'>Stackato</a>"
 Amazon,Rails,HR/IS - Internal," ",Vancouver,Small," ",Web App
 Ayogo,Rails/Ruby,Gaming/Health,http://ayogo.com,Downtown Vancouver,Micro," "," "
 Bardell Enterainment,Rails,Gaming/??,http://bardel.ca,Vancouver,?," "," "
