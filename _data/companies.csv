@@ -11,19 +11,19 @@ Claris Healthcare,Rails,Health/Video,http://www.clariscompanion.com,Vancouver,Mi
 Clio,Rails,Legal/Documents,http://www.goclio.com,"Burnaby, Vancouver",Large,"Angular, Mobile",
 Code Core,Rails,Teaching/Bootcamp,http://www.codecore.ca,Vancouver,Micro,,
 Contractually,Rails,Legal/Documents,http://www.contractual.ly/,Vancouver,Micro,SalesForce,
-Deversus,Rails,Software/ Consultant/ Coders for hire,www.deversus.com,Vancouver,Micro,,
+Deversus,Rails,Software/ Consultant/ Coders for hire,http://www.deversus.com,Vancouver,Micro,,
 domain7,Rails,Marketing,http://domain7.com,Vancouver,Micro,,
 E-xact Transactions,Ruby,Payments/Transaction Processing,http://www.e-xact.com,Vancouver,Medium,"MySQL, node.js, MongoDB, Redis, Memcached, Elasticsearch",
-econveyance,Rails,Legal,www.Econveyance.com,"Downtown/coal harbour","Micro team (2-3 Dev, 1 QA)",".NET",Web App
-EMRIS,Rails,Web 3.0,www.emris.cc,Vancouver,Micro,"Cassandra DB, Ember.js",Web App
+econveyance,Rails,Legal,http://www.econveyance.com,"Downtown/coal harbour","Micro team (2-3 Dev, 1 QA)",".NET",Web App
+EMRIS,Rails,Web 3.0,http://www.emris.cc,Vancouver,Micro,"Cassandra DB, Ember.js",Web App
 Envisio,Rails,business stratgey,http://www.envisio.com,Vancouver,Micro,,
-Flowmail,Rails,Marketing/Email,http://flowmail.com http://getflowmail.com,Vancouver,?,,
+Flowmail,Rails,Marketing/Email,http://getflowmail.com,Vancouver,?,,
 Foodee,Rails,Food/Delivery,https://food.ee,Vancouver,Micro,"Angular, JavaScript, MySQL, Postgres, Python, Wordpress","Web App, API"
 Freerunning technologies,Rails/Ruby,Software/ Consultant/ Coders for hire,http://www.freerunningtech.com,Victoria,Large,,
 GuestFolio,Rails,CRM/Hotel,http://www.guestfolio.com,Whilster,Micro,,
 Heroku,,PaaS,http://www.heroku.com,Gastown,,,
 Hubifi,Rails,Marketing/Community,http://hubifi.com,Victoria,Micro,,
-IGENO,Rails,Analytics/Tourisim,igeno.com,Vancouver,,,
+IGENO,Rails,Analytics/Tourisim,http://igeno.com,Vancouver,,,
 Intergalactic Agency Inc.,Rails,Software/ Consultant/ Coders for hire,http://intergalactic.com,"Yaletown, Vancouver",Micro,"Angular, MySQL, Postgres, PHP, iOS, Android","Web App, API"
 Kidzworld,Rails/Ruby,Social Network,http://www.kidzworld.com,Vancouver,Small,,
 Klue,Rails/Ruby?,Business Intelligence,http://www.klue.in,Vancouver,Micro,,
@@ -34,7 +34,7 @@ Lighthouse Labs,Rails/Ruby,Teaching/Bootcamp,http://www.lighthouselabs.ca,Vancou
 Liquet,Rails,Internet of Things,https://linquet.com,Vancouver,Micro,Angular,
 Medeo,Rails,Health/Video,https://medeohealth.com,Vancouver,Small/Micro?,,
 meowbox,Rails,Shopping/Cats,https://meowbox.com,Vancouver,Micro,,Web App
-Mobio,Rails,Social Network/Celebrities,,Vancouver,Micro,Postgres,Web App
+Mobio,Rails,Social Network/Celebrities,http://www.mobio.net/,Vancouver,Micro,Postgres,Web App
 Mogo,Ruby,Finance/loans,https://www.mogo.ca,Vancouver,Small?,,
 mybesthelper,Rails,Job/babysitter,https://www.mybesthelper.com,Vancouver,Micro,MySQL,Web App
 Noomii,Rails/Ruby,Job/coaches,http://www.noomii.com,Vancouver,Micro,,
@@ -58,6 +58,6 @@ Vin65,Rails,Shopping/Wine,https://www.vin65.com,Vancouver,Micro,ColdFusion,
 Wannawatchit,Rails,Review/Events/Movies,http://www.wannawatch.it,Vancouver,Micro,,Web App
 Wealthbar,Rails,Finance/Investment,https://www.wealthbar.com,Vancouver,Micro,,
 Weddingful,Rails,Shopping/Weddings,https://weddingful.com,Vancouver,Micro,,Web App
-Wintermarket,Rails/Ruby,Software/ Consultant/ Coders for hire,wintermarket.net,Vancouver,Micro,,
+Wintermarket,Rails/Ruby,Software/ Consultant/ Coders for hire,http://wintermarket.net,Vancouver,Micro,,
 Wishpond,Rails,Marketing/multiple products,http://corp.wishpond.com,"Coal Harbour, Vancouver",Small,,
 Zozi,Rails,Booking/Shopping/ Tourism,https://www.zozi.com/seattle,Vancouver,?,,
