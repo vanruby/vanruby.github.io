@@ -1,13 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem "jekyll-assets"
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-gem "sass"
-gem "uglifier"
-gem "stringex"
-gem "therubyracer"
-gem "kramdown"
-gem "rake"
-
-gem "rdiscount"
+gem 'github-pages', versions['github-pages']
