@@ -1,0 +1,28 @@
+---
+layout: layout
+title: "VanRuby - Past Meetups"
+---
+
+{% assign meetups = site.data.meetups | reverse %}
+
+<h2>Past Meetups</h2>
+<p>Check out the next upcoming meetup on <a href="https://meetup.com/vancouver-ruby/">our Meetup page</a>.</p>
+
+<hr />
+
+{% for meetup in meetups %}
+<div class="row meetups">
+  <div class="col-xs-12 visible-xs meetup-date">
+    <small>{{ meetup.date | date: '%b %d, %Y' }}</small>
+  </div>
+  <div class="col-xs-12" style="margin-bottom: 20px">
+    <h4>
+      <small class="hidden-xs meetup-date-md">{{ meetup.date | date: '%b %d, %Y' }}</small>
+      <a href="{{ meetup.url }}">
+        {{ meetup.name }}
+      </a>
+    </h4>
+  </div>
+</div>
+{% endfor %}
+

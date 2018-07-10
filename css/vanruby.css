@@ -11,7 +11,18 @@ body {
 
 .jumbotron {
   margin-top: 20px;
+}
 
 .company .hide-overflow {
   overflow:hidden;
 }
+
+.meetup-date {
+  color: #9c9c9c;
+}
+
+.meetup-date-md {
+  display: inline-block;
+  width: 8em;
+}
+
