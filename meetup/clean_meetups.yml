@@ -252,26 +252,6 @@
   :date: 2013-05-30
   :slides: []
   :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/122826262/
-  :date: 2013-06-04
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/123091472/
-  :date: 2013-06-18
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/124040242/
-  :date: 2013-07-02
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/124517122/
-  :date: 2013-07-16
-  :slides: []
-  :videos: []
 - :name: Aaron Patterson at Vancouver Ruby Meetup
   :url: https://www.meetup.com/vancouver-ruby/events/128765412/
   :date: 2013-07-25
@@ -282,64 +262,14 @@
   :date: 2013-07-26
   :slides: []
   :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/128809982/
-  :date: 2013-07-30
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/132066532/
-  :date: 2013-08-13
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/132066892/
-  :date: 2013-08-27
-  :slides: []
-  :videos: []
 - :name: "#vanruby summer BBQ"
   :url: https://www.meetup.com/vancouver-ruby/events/135757202/
   :date: 2013-08-29
   :slides: []
   :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/132066952/
-  :date: 2013-09-10
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/132066972/
-  :date: 2013-09-24
-  :slides: []
-  :videos: []
 - :name: Digital Commerce with Spree's mountable Rails engine
   :url: https://www.meetup.com/vancouver-ruby/events/140993732/
   :date: 2013-10-01
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/138163642/
-  :date: 2013-10-08
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/145299272/
-  :date: 2013-10-22
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/144826082/
-  :date: 2013-11-05
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/149547312/
-  :date: 2013-11-19
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/151573572/
-  :date: 2013-12-03
   :slides: []
   :videos: []
 - :name: Lightning Talks at Unbounce
@@ -348,31 +278,6 @@
   :slides:
   - http://www.slideshare.net/godfreykfc/rails-41
   :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/154207602/
-  :date: 2013-12-17
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/154207652/
-  :date: 2014-01-14
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/154207712/
-  :date: 2014-01-28
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/162850892/
-  :date: 2014-02-11
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/165564112/
-  :date: 2014-02-25
-  :slides: []
-  :videos: []
 - :name: Lightning Talks at CodeCore
   :url: https://www.meetup.com/vancouver-ruby/events/166083802/
   :date: 2014-02-27
@@ -380,49 +285,14 @@
   - https://gist.github.com/pcreux/9277929
   - https://gist.github.com/adamcooper/9262267
   :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/160103812/
-  :date: 2014-03-11
-  :slides: []
-  :videos: []
 - :name: Object-Oriented Design in Rails
   :url: https://www.meetup.com/vancouver-ruby/events/171302972/
   :date: 2014-03-25
   :slides: []
   :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/172263422/
-  :date: 2014-04-08
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/173415932/
-  :date: 2014-04-22
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/170152842/
-  :date: 2014-05-06
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/180386322/
-  :date: 2014-05-20
-  :slides: []
-  :videos: []
 - :name: Docker for Rails + Legacy Codebases
   :url: https://www.meetup.com/vancouver-ruby/events/181412432/
   :date: 2014-05-21
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/180574512/
-  :date: 2014-06-03
-  :slides: []
-  :videos: []
-- :name: "#VANRUBY Hack Night"
-  :url: https://www.meetup.com/vancouver-ruby/events/181533152/
-  :date: 2014-06-17
   :slides: []
   :videos: []
 - :name: June Social Lightning Talks
@@ -459,31 +329,6 @@
 - :name: "#VanRuby Lightning talks at CodeCore"
   :url: https://www.meetup.com/vancouver-ruby/events/226658841/
   :date: 2015-11-24
-  :slides: []
-  :videos: []
-- :name: Developer Hack Night
-  :url: https://www.meetup.com/vancouver-ruby/events/227896994/
-  :date: 2016-01-13
-  :slides: []
-  :videos: []
-- :name: Developer Hack Night
-  :url: https://www.meetup.com/vancouver-ruby/events/228043264/
-  :date: 2016-02-10
-  :slides: []
-  :videos: []
-- :name: Developer Hack Night
-  :url: https://www.meetup.com/vancouver-ruby/events/228703708/
-  :date: 2016-03-09
-  :slides: []
-  :videos: []
-- :name: Developer Hack Night
-  :url: https://www.meetup.com/vancouver-ruby/events/229286098/
-  :date: 2016-04-13
-  :slides: []
-  :videos: []
-- :name: Developer Hack Night
-  :url: https://www.meetup.com/vancouver-ruby/events/230215929/
-  :date: 2016-05-11
   :slides: []
   :videos: []
 - :name: "#VanRuby Meetup Talk - Turbo Rails with Rust by @chancancode!"
