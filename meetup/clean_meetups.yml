@@ -1,0 +1,600 @@
+---
+- :name: The Vancouver Ruby/Rails August Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/6038039/
+  :date: 2007-08-07
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails September Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/6143514/
+  :date: 2007-09-11
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails October Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/6341482/
+  :date: 2007-10-09
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails November Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/6522213/
+  :date: 2007-11-06
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails December Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/6693048/
+  :date: 2007-12-03
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails January Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/6851992/
+  :date: 2008-01-26
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails March Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/7200471/
+  :date: 2008-03-03
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails April Meeting
+  :url: https://www.meetup.com/vancouver-ruby/events/7458929/
+  :date: 2008-04-07
+  :slides: []
+  :videos: []
+- :name: Merb - Off the Rails - Vancouver Ruby/Rails May Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/7696626/
+  :date: 2008-05-05
+  :slides: []
+  :videos: []
+- :name: Inside DogOnRails - A Wifidog Auth Server - Vancouver Ruby/Rails June Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/7881378/
+  :date: 2008-06-02
+  :slides: []
+  :videos: []
+- :name: 'The Vancouver Ruby/Rails September Meetup: Sunny Hirai, New Ruby Patterns'
+  :url: https://www.meetup.com/vancouver-ruby/events/8066422/
+  :date: 2008-09-08
+  :slides: []
+  :videos: []
+- :name: 'Unfactoring From Patterns: Job Security Through Code Obscurity'
+  :url: https://www.meetup.com/vancouver-ruby/events/8870283/
+  :date: 2008-10-03
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails October Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/8719160/
+  :date: 2008-10-06
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails/Merb November Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/8912342/
+  :date: 2008-11-03
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails/Merb December Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/9089939/
+  :date: 2008-12-02
+  :slides: []
+  :videos: []
+- :name: '"Ruby in the Rain": One Day Ruby Conference at WorkSpace'
+  :url: https://www.meetup.com/vancouver-ruby/events/9270639/
+  :date: 2009-01-24
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails/Merb February Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/9592367/
+  :date: 2009-02-09
+  :slides: []
+  :videos: []
+- :name: Easy testing on Ruby OpenID consumer implementations
+  :url: https://www.meetup.com/vancouver-ruby/events/9710400/
+  :date: 2009-03-23
+  :slides: []
+  :videos: []
+- :name: 'Eric Ries (!!!) - The Lean Startup: a Disciplined Approach...'
+  :url: https://www.meetup.com/vancouver-ruby/events/10021600/
+  :date: 2009-04-20
+  :slides: []
+  :videos: []
+- :name: Rubish with Howard Yeh AND Intro to Erlang with Ken Pratt
+  :url: https://www.meetup.com/vancouver-ruby/events/10231486/
+  :date: 2009-05-19
+  :slides: []
+  :videos: []
+- :name: Programming Erlang with Ken Pratt (follow-up to last month's "Intro to Erlang")
+  :url: https://www.meetup.com/vancouver-ruby/events/10452190/
+  :date: 2009-06-17
+  :slides:
+  - http://www.slideshare.net/kenpratt/intro-to-erlang
+  - http://www.slideshare
+  :videos: []
+- :name: Hacking parse.y with Tatsuhiro UJIHISA
+  :url: https://www.meetup.com/vancouver-ruby/events/10614880/
+  :date: 2009-08-05
+  :slides: []
+  :videos: []
+- :name: The Vancouver Ruby/Rails/Merb September Meetup - Pub Night
+  :url: https://www.meetup.com/vancouver-ruby/events/11038930/
+  :date: 2009-09-14
+  :slides: []
+  :videos: []
+- :name: Erlang-style concurrency with AMQP in Ruby with Howard Yeh
+  :url: https://www.meetup.com/vancouver-ruby/events/11332667/
+  :date: 2009-10-19
+  :slides: []
+  :videos: []
+- :name: 'Cooking with Chef: Your servers will thank you'
+  :url: https://www.meetup.com/vancouver-ruby/events/11667268/
+  :date: 2009-11-30
+  :slides: []
+  :videos: []
+- :name: Hacking on Document Centric Databases with Sinatra
+  :url: https://www.meetup.com/vancouver-ruby/events/12289868/
+  :date: 2010-01-29
+  :slides: []
+  :videos: []
+- :name: Artificial stupidity, adding smarts to yer kode with a little machine learning
+  :url: https://www.meetup.com/vancouver-ruby/events/12621845/
+  :date: 2010-03-22
+  :slides: []
+  :videos: []
+- :name: Lean Startups and Customer Development Discussion
+  :url: https://www.meetup.com/vancouver-ruby/events/13178759/
+  :date: 2010-05-31
+  :slides: []
+  :videos: []
+- :name: Ruby Meta-Programming Techniques with Howard Yeh
+  :url: https://www.meetup.com/vancouver-ruby/events/14171123/
+  :date: 2010-08-11
+  :slides: []
+  :videos: []
+- :name: Ruby 1.9.2 in Production with Tatsuhiro Ujihisa
+  :url: https://www.meetup.com/vancouver-ruby/events/15447066/
+  :date: 2010-11-23
+  :slides: []
+  :videos: []
+- :name: RailsJam for Newbies
+  :url: https://www.meetup.com/vancouver-ruby/events/15334503/
+  :date: 2010-12-04
+  :slides: []
+  :videos: []
+- :name: Co-Hosting Membase NoSQL Meetup at Network Hub
+  :url: https://www.meetup.com/vancouver-ruby/events/15805564/
+  :date: 2011-01-18
+  :slides: []
+  :videos: []
+- :name: How to Give an Awesome Meetup Talk - For Ruby Meetup Group
+  :url: https://www.meetup.com/vancouver-ruby/events/16098656/
+  :date: 2011-02-07
+  :slides: []
+  :videos: []
+- :name: Meet and greet in the pub
+  :url: https://www.meetup.com/vancouver-ruby/events/16247936/
+  :date: 2011-02-16
+  :slides: []
+  :videos: []
+- :name: Rails Jam for non-Rails Programmers
+  :url: https://www.meetup.com/vancouver-ruby/events/16248552/
+  :date: 2011-02-26
+  :slides: []
+  :videos: []
+- :name: 'Sinatra: Ruby Web Framework with Colin Smith'
+  :url: https://www.meetup.com/vancouver-ruby/events/16804547/
+  :date: 2011-03-24
+  :slides: []
+  :videos: []
+- :name: 'Eugene Gilburg: Multi-Application Development Using a Common Data Model'
+  :url: https://www.meetup.com/vancouver-ruby/events/17213268/
+  :date: 2011-04-28
+  :slides: []
+  :videos: []
+- :name: Ruby / Rails Lightning Talks
+  :url: https://www.meetup.com/vancouver-ruby/events/21277581/
+  :date: 2011-06-30
+  :slides: []
+  :videos: []
+- :name: Automatic Testing of REST Web Services Client with Rails by Owen Ou
+  :url: https://www.meetup.com/vancouver-ruby/events/28799411/
+  :date: 2011-08-25
+  :slides: []
+  :videos: []
+- :name: Talk by Koichi Sasada creator of the current Ruby 1.9 interpreter (YARV)
+  :url: https://www.meetup.com/vancouver-ruby/events/30014641/
+  :date: 2011-08-29
+  :slides: []
+  :videos: []
+- :name: 'In The Trenches: Running a Website with 300 Million Page Views Per Month'
+  :url: https://www.meetup.com/vancouver-ruby/events/34332362/
+  :date: 2011-10-06
+  :slides: []
+  :videos: []
+- :name: 'Performance Benchmarking Ruby: Increasing App Speed Through Benchmarking'
+  :url: https://www.meetup.com/vancouver-ruby/events/38848502/
+  :date: 2011-11-10
+  :slides: []
+  :videos: []
+- :name: 'Big Data: Collecting, Analyzing & Presenting with Ruby and Rails with Rob
+    Bucci'
+  :url: https://www.meetup.com/vancouver-ruby/events/56118382/
+  :date: 2012-03-29
+  :slides: []
+  :videos: []
+- :name: 'Inside Ruby: An In Depth Understanding of Modules in Ruby'
+  :url: https://www.meetup.com/vancouver-ruby/events/60343582/
+  :date: 2012-04-26
+  :slides: []
+  :videos: []
+- :name: Asynchronous Processing in Rails with Resque/Sidekiq
+  :url: https://www.meetup.com/vancouver-ruby/events/69062792/
+  :date: 2012-06-28
+  :slides: []
+  :videos: []
+- :name: Integrating RubyMotion into a Rails based workflow
+  :url: https://www.meetup.com/vancouver-ruby/events/92593912/
+  :date: 2012-12-05
+  :slides: []
+  :videos: []
+- :name: Object Oriented Rails & Ruby DSLs
+  :url: https://www.meetup.com/vancouver-ruby/events/102335832/
+  :date: 2013-02-19
+  :slides: []
+  :videos: []
+- :name: Ruby Lightning Talks & Social drinks
+  :url: https://www.meetup.com/vancouver-ruby/events/108830512/
+  :date: 2013-03-28
+  :slides: []
+  :videos: []
+- :name: James Golick - "What the F**k is a method cache?"
+  :url: https://www.meetup.com/vancouver-ruby/events/114542202/
+  :date: 2013-04-22
+  :slides: []
+  :videos: []
+- :name: Social Lightning Talks
+  :url: https://www.meetup.com/vancouver-ruby/events/121473692/
+  :date: 2013-05-30
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/122826262/
+  :date: 2013-06-04
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/123091472/
+  :date: 2013-06-18
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/124040242/
+  :date: 2013-07-02
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/124517122/
+  :date: 2013-07-16
+  :slides: []
+  :videos: []
+- :name: Aaron Patterson at Vancouver Ruby Meetup
+  :url: https://www.meetup.com/vancouver-ruby/events/128765412/
+  :date: 2013-07-25
+  :slides: []
+  :videos: []
+- :name: Want to contribute to Ruby on Rails? Q&A with Aaron Patterson
+  :url: https://www.meetup.com/vancouver-ruby/events/131367352/
+  :date: 2013-07-26
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/128809982/
+  :date: 2013-07-30
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/132066532/
+  :date: 2013-08-13
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/132066892/
+  :date: 2013-08-27
+  :slides: []
+  :videos: []
+- :name: "#vanruby summer BBQ"
+  :url: https://www.meetup.com/vancouver-ruby/events/135757202/
+  :date: 2013-08-29
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/132066952/
+  :date: 2013-09-10
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/132066972/
+  :date: 2013-09-24
+  :slides: []
+  :videos: []
+- :name: Digital Commerce with Spree's mountable Rails engine
+  :url: https://www.meetup.com/vancouver-ruby/events/140993732/
+  :date: 2013-10-01
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/138163642/
+  :date: 2013-10-08
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/145299272/
+  :date: 2013-10-22
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/144826082/
+  :date: 2013-11-05
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/149547312/
+  :date: 2013-11-19
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/151573572/
+  :date: 2013-12-03
+  :slides: []
+  :videos: []
+- :name: Lightning Talks at Unbounce
+  :url: https://www.meetup.com/vancouver-ruby/events/151522092/
+  :date: 2013-12-04
+  :slides:
+  - http://www.slideshare.net/godfreykfc/rails-41
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/154207602/
+  :date: 2013-12-17
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/154207652/
+  :date: 2014-01-14
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/154207712/
+  :date: 2014-01-28
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/162850892/
+  :date: 2014-02-11
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/165564112/
+  :date: 2014-02-25
+  :slides: []
+  :videos: []
+- :name: Lightning Talks at CodeCore
+  :url: https://www.meetup.com/vancouver-ruby/events/166083802/
+  :date: 2014-02-27
+  :slides:
+  - https://gist.github.com/pcreux/9277929
+  - https://gist.github.com/adamcooper/9262267
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/160103812/
+  :date: 2014-03-11
+  :slides: []
+  :videos: []
+- :name: Object-Oriented Design in Rails
+  :url: https://www.meetup.com/vancouver-ruby/events/171302972/
+  :date: 2014-03-25
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/172263422/
+  :date: 2014-04-08
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/173415932/
+  :date: 2014-04-22
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/170152842/
+  :date: 2014-05-06
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/180386322/
+  :date: 2014-05-20
+  :slides: []
+  :videos: []
+- :name: Docker for Rails + Legacy Codebases
+  :url: https://www.meetup.com/vancouver-ruby/events/181412432/
+  :date: 2014-05-21
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/180574512/
+  :date: 2014-06-03
+  :slides: []
+  :videos: []
+- :name: "#VANRUBY Hack Night"
+  :url: https://www.meetup.com/vancouver-ruby/events/181533152/
+  :date: 2014-06-17
+  :slides: []
+  :videos: []
+- :name: June Social Lightning Talks
+  :url: https://www.meetup.com/vancouver-ruby/events/188501932/
+  :date: 2014-06-26
+  :slides:
+  - https://gist.github.com/pcreux/cd6efb47f8bc439054bb
+  :videos: []
+- :name: 'The #VanRuby Summer BBQ'
+  :url: https://www.meetup.com/vancouver-ruby/events/201652652/
+  :date: 2014-08-28
+  :slides: []
+  :videos: []
+- :name: December Lightning Talks at Mobify
+  :url: https://www.meetup.com/vancouver-ruby/events/219087972/
+  :date: 2014-12-16
+  :slides: []
+  :videos: []
+- :name: Continuous Integration with Robot Sweatshop and Dropping down to The Metal™
+  :url: https://www.meetup.com/vancouver-ruby/events/223684094/
+  :date: 2015-07-14
+  :slides: []
+  :videos: []
+- :name: Van Ruby Annual Summer BBQ
+  :url: https://www.meetup.com/vancouver-ruby/events/224567844/
+  :date: 2015-09-03
+  :slides: []
+  :videos: []
+- :name: An Introduction To Elixir And Phoenix For Rubyists!
+  :url: https://www.meetup.com/vancouver-ruby/events/225959370/
+  :date: 2015-10-20
+  :slides: []
+  :videos: []
+- :name: "#VanRuby Lightning talks at CodeCore"
+  :url: https://www.meetup.com/vancouver-ruby/events/226658841/
+  :date: 2015-11-24
+  :slides: []
+  :videos: []
+- :name: Developer Hack Night
+  :url: https://www.meetup.com/vancouver-ruby/events/227896994/
+  :date: 2016-01-13
+  :slides: []
+  :videos: []
+- :name: Developer Hack Night
+  :url: https://www.meetup.com/vancouver-ruby/events/228043264/
+  :date: 2016-02-10
+  :slides: []
+  :videos: []
+- :name: Developer Hack Night
+  :url: https://www.meetup.com/vancouver-ruby/events/228703708/
+  :date: 2016-03-09
+  :slides: []
+  :videos: []
+- :name: Developer Hack Night
+  :url: https://www.meetup.com/vancouver-ruby/events/229286098/
+  :date: 2016-04-13
+  :slides: []
+  :videos: []
+- :name: Developer Hack Night
+  :url: https://www.meetup.com/vancouver-ruby/events/230215929/
+  :date: 2016-05-11
+  :slides: []
+  :videos: []
+- :name: "#VanRuby Meetup Talk - Turbo Rails with Rust by @chancancode!"
+  :url: https://www.meetup.com/vancouver-ruby/events/232454565/
+  :date: 2016-07-12
+  :slides: []
+  :videos: []
+- :name: "#VanRuby Lightning Talks at Unbounce"
+  :url: https://www.meetup.com/vancouver-ruby/events/235580487/
+  :date: 2016-12-01
+  :slides:
+  - https://speakerdeck.com/tim/dr-rubocop
+  - https://speakerdeck.com/pauloancheta/ruby-scripts-to-make-life-easier
+  - https://speakerdeck.com/timuruski/structure-and-interpretation-of-ruby-programs
+  - https://speakerdeck.com/alextaylor000/procedural-generation-in-ruby
+  - https://speakerdeck.com/pcreux/dry-2-dot-0
+  :videos: []
+- :name: "Refactoring: Avoiding \U0001F62D with Rails for more \U0001F604 and \U0001F4B0
+    by Jeremy Baker"
+  :url: https://www.meetup.com/vancouver-ruby/events/236357409/
+  :date: 2017-01-12
+  :slides:
+  - https://speakerdeck.com/jhubert/refactoring-decision-making-in-rails-projects
+  :videos: []
+- :name: "Two talks! ⭐️ Ruby Cantrips + \U0001F649 The various levels of monkey patch
+    hell"
+  :url: https://www.meetup.com/vancouver-ruby/events/237556198/
+  :date: 2017-02-23
+  :slides:
+  - https://www.slideshare.net/weston/rails-cantrips
+  :videos:
+  - https://www.youtube.com/watch?v=CSCE7Tc42kA
+  - https://www.youtube.com/watch?v=bl6udfXJS2E
+- :name: "#Vanruby ⚡️Lightning Talks at Unbounce"
+  :url: https://www.meetup.com/vancouver-ruby/events/238270930/
+  :date: 2017-03-29
+  :slides:
+  - https://www.slideshare.net/NicoSuria1/yaml-yaml-yaml
+  - https://gist.github.com/pcreux/5700f5295bb14f33db82242296eae029
+  - https://gist.github.com/mnutt/566725
+  :videos:
+  - https://youtu.be/UsJUL-DZim0?t=5s
+  - https://youtu.be/UsJUL-DZim0?t=242s
+  - https://youtu.be/UsJUL-DZim0?t=863s
+  - https://youtu.be/UsJUL-DZim0?t=1570s
+  - https://youtu.be/UsJUL-DZim0?t=1744s
+  - https://youtu.be/UsJUL-DZim0?t=2511s
+  - https://youtu.be/UsJUL-DZim0?t=2886s
+  - https://youtu.be/UsJUL-DZim0?t=3434s
+- :name: Microservices and Event Sourcing in Ruby
+  :url: https://www.meetup.com/vancouver-ruby/events/238272391/
+  :date: 2017-04-27
+  :slides: []
+  :videos:
+  - https://youtu.be/wzAvbm-Lgog
+- :name: How To Build Chatbots For Business
+  :url: https://www.meetup.com/vancouver-ruby/events/240006121/
+  :date: 2017-05-25
+  :slides: []
+  :videos:
+  - https://youtu.be/P_jVSc7hvWU
+- :name: "✅ Continuous Testing, \U0001F4E6 Integration, and \U0001F680 Deployment
+    for Ruby Projects"
+  :url: https://www.meetup.com/vancouver-ruby/events/240666474/
+  :date: 2017-06-29
+  :slides: []
+  :videos:
+  - https://youtu.be/IL4T2hKLE_M
+- :name: Sandi Metz - Go Ahead, Make a Mess @Clio HQ with WomenWhoCode
+  :url: https://www.meetup.com/vancouver-ruby/events/242834163/
+  :date: 2017-09-28
+  :slides: []
+  :videos: []
+- :name: "⚡️Lightning Talks"
+  :url: https://www.meetup.com/vancouver-ruby/events/244150303/
+  :date: 2017-10-24
+  :slides: []
+  :videos:
+  - https://www.youtube.com/watch?v=B3TVDQen_-0&feature=youtu.be
+- :name: "\U0001F680 Change is a CONSTANT + \U0001F381 The OTHER product you’re building"
+  :url: https://www.meetup.com/vancouver-ruby/events/245006565/
+  :date: 2017-11-21
+  :slides: []
+  :videos: []
+- :name: "⛄️ Rethinking Computer Science Education with Godfrey Chan \U0001F381"
+  :url: https://www.meetup.com/vancouver-ruby/events/246044598/
+  :date: 2018-01-18
+  :slides: []
+  :videos:
+  - https://www.youtube.com/watch?v=G4vZI_74tYs&feature=youtu.be
+- :name: "\U0001F680 Experiences deploying ActionCable into production Rails apps"
+  :url: https://www.meetup.com/vancouver-ruby/events/247646990/
+  :date: 2018-02-22
+  :slides: []
+  :videos:
+  - https://www.youtube.com/watch?v=v2uaY9qTSsI
+- :name: "⚡️Lightning Talks"
+  :url: https://www.meetup.com/vancouver-ruby/events/248722404/
+  :date: 2018-03-29
+  :slides: []
+  :videos:
+  - https://www.youtube.com/watch?v=4fKUeMmrXZw&feature=youtu.be
+- :name: "\U0001F4E6 Running Rails on Elastic Container Service"
+  :url: https://www.meetup.com/vancouver-ruby/events/250211183/
+  :date: 2018-05-17
+  :slides: []
+  :videos:
+  - https://www.youtube.com/watch?v=ok6nTjfShjs
+- :name: Event Sourcing on Rails
+  :url: https://www.meetup.com/vancouver-ruby/events/251275462/
+  :date: 2018-06-21
+  :slides: []
+  :videos:
+  - https://youtu.be/5zNPmvqO518
