@@ -63,15 +63,14 @@ COMMENTS = YAML.load(File.read("meetups.yaml")).fetch("comments").map { |h| Comm
 
 meetups = MEETUPS
   .map { |data| Meetup.new(data) }
-  .reject { |meetup|
-    meetup.name["Developer Night"]
-  }
+  .reject { |meetup| meetup.name["Developer Night"] }
+  .reject { |meetup| meetup.name["Hack Night"] }
   .map { |meetup|
     { name: meetup.name,
       url: meetup.event_url,
       date: meetup.date,
       slides: meetup.slides,
-      videos: meetup.videos
+      videos: meetup.videos,
     }
 }
 
