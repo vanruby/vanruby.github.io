@@ -1,49 +1,4 @@
-highlighter: 'pygments'
 markdown: rdiscount
 permalink: /posts/:title
 rdiscount:
   extensions: [smart]
-
-## Friends - those that have spoken at our meetups, is an organizer or helped the community
-## below :-)
-members:
-  - name: Kalvir Sandhu
-    gravatar: kalv@kalv.co.uk
-    blurb: "Organizer of VanRuby, co-founder of @brewhouseteam / @goodbitsio. Been building products with Ruby/Rails for over 7 years."
-    twitter: kalv
-    url: http://brewhouse.io/
-  - name: Godfrey Chan
-    gravatar: godfreykfc@gmail.com
-    blurb: "Working at @brewhouseteam. Core contributor to Rails."
-    twitter: ChanCanCode
-    url: http://brewhouse.io/
-  - name: Loki Meyburg
-    gravatar: loki@medeo.ca
-    blurb: "Building @Medeo by day. #VanRuby hacking by night. @Crossfit604 in the morning. Motto: simplify."
-    twitter: LokiMeyburg
-    url: https://medeo.ca
-  - name: Charles Bergeron
-    gravatar: hello@charlesbergeron.ca
-    blurb: "Programmer, designer, musician – Develops and Designs at @brewhouseteam. When possible, do the cycling and yogi roles."
-    twitter: ChuckBergeron
-    url: http://charlesbergeron.ca
-  - name: Matthew Robertson
-    gravatar: matthew@cloudclinic.ca
-    blurb: "A Vancouver based web developer, now hacking on @Facebook"
-    twitter: mattdrobertson
-    url: http://matthewrobertson.org
-  - name: Brent Vatne
-    gravatar: brentvatne@gmail.com
-    blurb: "Consultant with Madriska Inc, Instructor and Teaching Assistant with CodeCore. Knowledge is vegetables. Eat your power."
-    twitter: notbrent
-    url: http://brentvatne.ca
-  - name: Matt Smith
-    gravatar: mattr.smith@gmail.com
-    blurb: "Co-organizer of VanRuby meetups, co-founder of Thinkific.com, loves building and creating new things."
-    twitter: symana
-    url: http://www.thinkific.com
-  - name: Gabe Scholz
-    gravatar: scholz.gabe@gmail.com
-    blurb: "Programmer with @brewhouseteam. Knowledge is power. Eat your vegetables."
-    twitter: gabescholz
-    url: http://www.garbl.es
