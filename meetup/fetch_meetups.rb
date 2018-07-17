@@ -42,7 +42,7 @@ def run
     comment_page += 1
   end
 
-  File.open('meetups.yaml', 'w') do |f|
+  File.open('raw_meetups.yml', 'w') do |f|
     f.write(
       {
         'events' => all_events,
