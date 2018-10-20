@@ -443,3 +443,9 @@
   slides: []
   videos:
   - https://youtu.be/5zNPmvqO518
+- name: 10 Years of Rails Upgrades 📈
+  url: https://www.meetup.com/vancouver-ruby/events/254650728/
+  date: 2018-10-18
+  slides: []
+  videos:
+  - https://www.youtube.com/watch?v=7nzNJmStSVg
