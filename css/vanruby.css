@@ -20,6 +20,11 @@ body {
 .meetup-date {
   color: #9c9c9c;
   min-width: 8em;
+  vertical-align: top;
+}
+
+.meetup-details {
+  border-top: 2px solid #efefef;
 }
 
 .meetup-row {
