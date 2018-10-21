@@ -14,5 +14,11 @@
 
   $("a[data-toggle='tooltip']").tooltip();
 
+  $("a[data-expand]").click(function() {
+    var target = $(this).attr('data-expand')
+    var $target = $(target);
+    $target.toggleClass('hide');
+  });
+
 
 })(jQuery);
