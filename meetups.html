@@ -10,19 +10,18 @@ title: "VanRuby - Past Meetups"
 
 <hr />
 
-{% for meetup in meetups %}
-<div class="row meetups">
-  <div class="col-xs-12 visible-xs meetup-date">
-    <small>{{ meetup.date | date: '%b %d, %Y' }}</small>
-  </div>
-  <div class="col-xs-12" style="margin-bottom: 20px">
-    <h4>
-      <small class="hidden-xs meetup-date-md">{{ meetup.date | date: '%b %d, %Y' }}</small>
-      <a href="{{ meetup.url }}">
-        {{ meetup.name }}
-      </a>
-    </h4>
-  </div>
-</div>
-{% endfor %}
+<table class"table hover">
+  <tbody>
+    {% for meetup in meetups %}
+      <tr class="meetup-row">
+        <td class="meetup-date xs-block">{{ meetup.date | date: '%b %d, %Y' }}</td>
+        <td class="xs-block">
+          <a href="{{ meetup.url }}">
+            {{ meetup.name }}
+          </a>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 

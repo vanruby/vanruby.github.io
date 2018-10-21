@@ -19,10 +19,15 @@ body {
 
 .meetup-date {
   color: #9c9c9c;
+  min-width: 8em;
 }
 
-.meetup-date-md {
-  display: inline-block;
-  width: 8em;
+.meetup-row {
+  border-bottom: 15px solid transparent;
 }
 
+@media (max-width: 768px) {
+  .xs-block {
+    display: block;
+  }
+}
