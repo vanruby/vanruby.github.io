@@ -19,28 +19,22 @@ title: "VanRuby - Past Meetups"
       <tr class="meetup-row">
         <td class="meetup-date xs-block">{{ meetup.date | date: '%b %d, %Y' }}</td>
         <td class="xs-block">
-          {% if num_slides > 0 or num_videos > 0 %}
-            <a href="javascript:void(0)" data-expand="#meetup-details-{{ forloop.index }}">
-              {{ meetup.name }}
-            </a>
-            <div id="meetup-details-{{ forloop.index }}" class="js-meetup-details meetup-details hide">
-              <ul>
-                <li><a href="{{ meetup.url }}" target="_blank">Event on Meetup.com</a></li>
-                {% for video in meetup.videos %}
-                  <li><a href="{{ video }}" target="_blank">Video</a></li>
-                {% endfor %}
+          <a href="javascript:void(0)" data-expand="#meetup-details-{{ forloop.index }}">
+            {{ meetup.name }}
+          </a>
+          <div id="meetup-details-{{ forloop.index }}" class="js-meetup-details meetup-details hide">
+            <ul>
+              <li><a href="{{ meetup.url }}" target="_blank">Event on Meetup.com</a></li>
+              {% for video in meetup.videos %}
+                <li><a href="{{ video }}" target="_blank">Video</a></li>
+              {% endfor %}
 
-                {% for slide in meetup.slides %}
-                  <li><a href="{{ slide }}" target="_blank">Slides</a></li>
-                {% endfor %}
-              </ul>
-              </p>
-            </div>
-          {% else %}
-            <a href="{{ meetup.url }}">
-              {{ meetup.name }}
-            </a>
-          {% endif %}
+              {% for slide in meetup.slides %}
+                <li><a href="{{ slide }}" target="_blank">Slides</a></li>
+              {% endfor %}
+            </ul>
+            </p>
+          </div>
         </td>
       </tr>
     {% endfor %}
