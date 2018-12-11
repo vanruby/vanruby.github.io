@@ -449,3 +449,10 @@
   slides: []
   videos:
   - https://www.youtube.com/watch?v=7nzNJmStSVg
+- name: "⚡️ Lightning Talks"
+  url: https://www.meetup.com/vancouver-ruby/events/256420240/
+  date: 2018-11-29
+  slides: []
+  videos:
+  - https://www.youtube.com/watch?v=Yw9F4ifkIk0
+
