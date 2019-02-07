@@ -455,4 +455,10 @@
   slides: []
   videos:
   - https://www.youtube.com/watch?v=Yw9F4ifkIk0
-
+- name: 📦 Active Storage - Modern File Storage
+  url: https://www.meetup.com/vancouver-ruby/events/258179867/
+  date: 2019-01-31
+  slides:
+    - https://www.slideshare.net/MichaelYagudaev/active-storage-modern-file-storage
+  videos:
+  - https://www.youtube.com/watch?v=_Fsfx-bhJ8U
