@@ -59,7 +59,7 @@ Strutta,Rails,Marketing/Contests,http://www.strutta.com,Vancouver,Micro,,
 Talemetry,Rails,HR/Application Tracking System,http://talemetry.com,"Richmond, Vancouver",Medium,Backbone,
 TeamPages,Rails,SportsCMS,http://www.teampages.com,Vancouver,Micro,,
 thinkific,Rails,Marketing/Learning,http://www.thinkific.com,Vancouver,Micro,,
-Traction Guest, Rails, Visitor Management System, https://tractionguest.com/, "Burnaby, Vancouver", Small, "Go, Postgresql, NodeJS, Redis, AWS, Docker, Heroku, Cordova", "<a href='https://tractionguest.com/jobs/'>Traction Guest Jobs</a>"
+Traction Guest,Rails,Visitor Management System,https://tractionguest.com/,"Burnaby, Vancouver",Small,"Go, Postgresql, NodeJS, Redis, AWS, Docker, Heroku, Cordova","<a href='https://tractionguest.com/jobs/'>Traction Guest Jobs</a>"
 Unbounce,Rails,Marketing/Landing Pages,http://unbouncepages.com,Vancouver,Small?,,
 Venture Media Labs,Rails,Multiple Products,http://venturemedia.com,Vancouver,Small,"objective C, Java",
 VenueSpot,Rails,Bidding/Venues bid to host event,http://www.venuespot.co,Vancouver,Micro,Angular,
