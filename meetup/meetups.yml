@@ -462,3 +462,9 @@
     - https://www.slideshare.net/MichaelYagudaev/active-storage-modern-file-storage
   videos:
   - https://www.youtube.com/watch?v=_Fsfx-bhJ8U
+- name: "⚡️ Lightning Talks"
+  url: https://www.meetup.com/vancouver-ruby/events/259352139/
+  date: 2019-03-14
+  slides: []
+  videos:
+  - https://youtu.be/0rpCPYZFBYQ
