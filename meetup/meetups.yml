@@ -468,3 +468,15 @@
   slides: []
   videos:
   - https://youtu.be/0rpCPYZFBYQ
+- name: "☀️ The Lifecyle of a Rails Request with Godfrey Chan"
+  url: https://www.meetup.com/vancouver-ruby/events/263063864/
+  date: 2019-07-25
+  slides:
+  - https://speakerdeck.com/chancancode/the-lifecycle-of-a-rails-request
+  videos:
+  - https://youtu.be/T2nfaaxRE8o
+- name: "⚡️ Lightning Talks"
+  url: https://www.meetup.com/vancouver-ruby/events/264794698/
+  date: 2019-10-03
+  slides: []
+  videos: []
