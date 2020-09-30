@@ -1,4 +1,4 @@
-# VanRuby
+# VanRuby- an amazing website 
 
 We are from Vancouver and we build cool stuff with Ruby! This is [our website](http://vanruby.org) built with Ruby and the static site generator, [Jekyll](http://jekyllrb.com/).
 
