@@ -4,6 +4,8 @@ We are from Vancouver and we build cool stuff with Ruby! This is [our website](h
 
 http://vanruby.org
 
+Join our communtiy to make the best and contribute your skills
+
 ## Installation
 
 - Clone this repository
