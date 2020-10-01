@@ -4,7 +4,7 @@ We are from Vancouver and we build cool stuff with Ruby! This is [our website](h
 
 http://vanruby.org
 
-## Installation
+## Installation Guide
 
 - Clone this repository
 - Run `gem install bundler`
