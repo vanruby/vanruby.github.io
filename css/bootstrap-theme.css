@@ -35,7 +35,7 @@
 .btn-info .badge,
 .btn-warning .badge,
 .btn-danger .badge {
-  text-shadow: none;
+  text-shadow: 0 1px;
 }
 .btn:active,
 .btn.active {
@@ -86,7 +86,7 @@
 .btn-primary:active,
 .btn-primary.active {
   background-color: #265a88;
-  border-color: #245580;
+  border-color: #245581;
 }
 .btn-primary:disabled,
 .btn-primary[disabled] {
@@ -131,7 +131,7 @@
 .btn-info:hover,
 .btn-info:focus {
   background-color: #2aabd2;
-  background-position: 0 -15px;
+  background-position: 0 -16px;
 }
 .btn-info:active,
 .btn-info.active {
