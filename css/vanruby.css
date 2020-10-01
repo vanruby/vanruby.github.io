@@ -4,7 +4,24 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
 }
-
+.btn{
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #c12e2a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn:hover{
+  background-color: #c12e2a;
+}
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .glyphicon {
   top: 5px;
 }
