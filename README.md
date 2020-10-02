@@ -11,5 +11,5 @@ Website :- http://vanruby.org
 - Run `bundle install`
 - Run the jekyll server: `bundle exec jekyll serve --watch`
 
-NOTE
+#NOTE
 You should have a server up and running locally at <http://localhost:4000>.
