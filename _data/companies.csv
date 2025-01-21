@@ -1,20 +1,18 @@
 name,codebase,market,website,location,team_size,technologies,ruby_role
-ACL,Rails,Finance/Audit,http://www.acl.com,"Coal Harbour, Vancouver",Medium,,
-ActiveState,Ruby,Enterprise/IT,http://www.activestate.com/,Downtown Vancouver,Large,"Sinatra, Go, JavaScript, NodeJS, Python, Perl, Tcl, Bash, Java, MongoDB, Postgresql, MySQL, Redis, Memcached, Harbor, Jenkins","<a href='http://www.activestate.com/stackato'>Stackato</a>"
+ActiveState,Ruby,Enterprise/IT,http://www.activestate.com/,Downtown Vancouver,Large,"Sinatra, Go, JavaScript, NodeJS, Python, Perl, Tcl, Bash, Java, MongoDB, Postgresql, MySQL, Redis, Memcached, Harbor, Jenkins",<a href='http://www.activestate.com/stackato'>Stackato</a>
 Amazon,Rails,HR/IS - Internal,https://www.amazon.jobs/location/vancouvervictoria-canada/,Vancouver,Small,,Web App
 Ayogo,Rails/Ruby,Gaming/Health,http://ayogo.com,Downtown Vancouver,Micro,,
-Bardell Enterainment,Rails,Gaming/??,http://bardel.ca,Vancouver,?,,
+Bardell Entertainment,Rails,Gaming/??,http://bardel.ca,Vancouver,?,,
 BMC,Rails,Analytics/IT,http://www.bmc.com,Vancouver,?,,
-Brewhouse,"Rails | Ruby | Sinatra",Product Agency / Consultants,http://brewhouse.io,Vancouver,Small,"Angular, Ember, React, JavaScript","<a href='http://goodbits.io'>Goodbits.io</a>"
 Casting Workbook,Rails/Ruby,Job/Actors/Film/TV,http://www.castingworkbook.com,Vancouver,Small,"ASP, .NET, Angular, MS SQL, Postgres",API/ Web App/SOA
 Claris Healthcare,Rails,Health/Video,http://www.clariscompanion.com,Vancouver,Micro,"Backbone,Android,Coffeescript,Postgres,Heroku","Web App, API"
 Clio,Rails,Legal/Documents,http://www.goclio.com,"Burnaby, Vancouver",Large,"Angular, Mobile",
 CodeCore,Rails,Teaching/Bootcamp,http://www.codecore.ca,Vancouver,Micro,,
 Contractually,Rails,Legal/Documents,http://www.contractual.ly/,Vancouver,Micro,SalesForce,
-Deversus,Rails,Software/ Consultant/ Coders for hire,http://www.deversus.com,Vancouver,Micro,,
+Diligent,Rails,Finance/Audit,https://diligent.com,"Coal Harbour, Vancouver",Medium,,
 domain7,Rails,Marketing,http://domain7.com,Vancouver,Micro,,
 E-xact Transactions,Ruby,Payments/Transaction Processing,http://www.e-xact.com,Vancouver,Medium,"MySQL, node.js, MongoDB, Redis, Memcached, Elasticsearch",
-econveyance,Rails,Legal,http://www.econveyance.com,"Downtown/coal harbour","Micro team (2-3 Dev, 1 QA)",".NET",Web App
+econveyance,Rails,Legal,http://www.econveyance.com,Downtown/coal harbour,"Micro team (2-3 Dev, 1 QA)",.NET,Web App
 EMRIS,Rails,Web 3.0,http://www.emris.cc,Vancouver,Micro,"Cassandra DB, Ember.js",Web App
 Envisio,Rails,business stratgey,http://www.envisio.com,Vancouver,Micro,,
 Ethelo Decisions, Rails,Business Intelligence,http://ethelodecisions.com,Vancouver,?,,
@@ -23,10 +21,12 @@ Foodee,Rails,Food/Delivery,https://food.ee,Vancouver,Micro,"Angular, JavaScript,
 Glacier Info Group,Rails/Ember,Real Estate,http://www.rew.ca,Vancouver/Olympic Village,~5,"Rails, Ember, Clojure, Postgres",
 GuestFolio,Rails,CRM/Hotel,http://www.guestfolio.com,Whilster,Micro,,
 Heroku,,PaaS,http://www.heroku.com,Gastown,,,
+Hiive,Rails,Fintech,Vancouver,Small,,Web App
 Hubifi,Rails,Marketing/Community,http://hubifi.com,Victoria,Micro,,
 IGENO,Rails,Analytics/Tourisim,http://igeno.com,Vancouver,,,
 Intergalactic Agency Inc.,Rails,Software/ Consultant/ Coders for hire,http://intergalactic.com,"Yaletown, Vancouver",Micro,"Angular, MySQL, Postgres, PHP, iOS, Android","Web App, API"
 IT Glue,Rails/Ruby,IT/Documentation,http://www.itglue.com,Vancouver,Small,"Angular, React","Web App, API"
+Jane.app,Rails,Health/Software,https://janeapp.com,Vancouver,Large,,
 Kickstarter / Drip,Rails/Ruby,Crowdfunding,https://d.rip,Vancouver,Medium,"Rails, React, GraphQL",
 Kidzworld,Rails/Ruby,Social Network,http://www.kidzworld.com,Vancouver,Small,,
 Klue,Rails/Ruby?,Business Intelligence,http://www.klue.in,Vancouver,Micro,,
@@ -35,12 +35,12 @@ Latero Labs,Rails,Software/ Consultant/ Coders for hire,http://www.laterolabs.co
 Len Desk,Rails,Finance/loans,https://lendesk.com,Vancouver,Small,Angular,
 Lighthouse Labs,Rails/Ruby,Teaching/Bootcamp,http://www.lighthouselabs.ca,Vancouver,Micro,,
 Liquet,Rails,Internet of Things,https://linquet.com,Vancouver,Micro,Angular,
-Medeo,Rails,Health/Video,https://medeohealth.com,Vancouver,Small/Micro?,,
 meowbox,Rails,Shopping/Cats,https://meowbox.com,Vancouver,Micro,,Web App
 Mobio,Rails,Social Network/Celebrities,http://www.mobio.net/,Vancouver,Micro,Postgres,Web App
 Mogo,Ruby,Finance/loans,https://www.mogo.ca,Vancouver,Small?,,
 mybesthelper,Rails,Job/babysitter,https://www.mybesthelper.com,Vancouver,Micro,MySQL,Web App
-"Nano 3 Labs",Rails/Ruby,"Product and Software Consultants",http://nano3labs.com,"Vancouver & Montreal","React, Redux","Web Apps, Native Apps",
+Nano 3 Labs,Rails/Ruby,Product and Software Consultants,http://nano3labs.com,Vancouver & Montreal,"React, Redux","Web Apps, Native Apps",
+Netsign,Rails/Ruby,Product development,https://netsign.com,Vancouver,Micro,"Ruby on Rails, JavaScript, Ansible","Web App, API"
 Noomii,Rails/Ruby,Job/coaches,http://www.noomii.com,Vancouver,Micro,,
 Omnistream,Rails,CRM/Support,https://www.omnistre.am,Vancouver,Micro,"Angular/Coffeescript, /Postgres/Heroku","Web App, API"
 Payroll Hero,Rails,Payroll,http://payrollhero.com,Whistler,Small,,
@@ -54,14 +54,15 @@ Shopify,Rails/Ruby,Commerce Platform,https://www.shopify.com/,Vancouver,Large,"R
 Social Chorus,Rails/Ruby,Marketing/Social,http://www.socialchorus.com,Vancouver,Small,,
 Spacelist,Rails,Rental,http://spacelist.ca,Vancouver,Micro,,
 Spark,Rails,Real Estate,https://spark.re,Vancouver,Medium,"Rails, Postgres, AWS","Web App, API"
-STAT Search Analytics,Ruby/Rails/JavaScript,Marketing analytics,http://getstat.com/,Vancouver,Small,ExtJS/MySQL/Mongo/Redis/Resque,"Data collection/Web app/API"
+STAT Search Analytics,Ruby/Rails/JavaScript,Marketing analytics,http://getstat.com/,Vancouver,Small,ExtJS/MySQL/Mongo/Redis/Resque,Data collection/Web app/API
 Strutta,Rails,Marketing/Contests,http://www.strutta.com,Vancouver,Micro,,
 Super Good,Rails/Ruby,Software Consultancy,https://supergood.software,Victoria,Small,"Ruby on Rails, Solidus/Spree",
 Talemetry,Rails,HR/Application Tracking System,http://talemetry.com,"Richmond, Vancouver",Medium,Backbone,
 TeamPages,Rails,SportsCMS,http://www.teampages.com,Vancouver,Micro,,
-thinkific,Rails,Marketing/Learning,http://www.thinkific.com,Vancouver,Micro,,
-Traction Guest,Rails,Visitor Management System,https://tractionguest.com/,"Burnaby, Vancouver",Small,"Go, Postgresql, NodeJS, Redis, AWS, Docker, Heroku, Cordova","<a href='https://tractionguest.com/jobs/'>Traction Guest Jobs</a>"
-Unbounce,Rails,Marketing/Landing Pages,http://unbouncepages.com,Vancouver,Small?,,
+thinkific,Rails,Marketing/Learning,http://www.thinkific.com,Vancouver,Large,,
+Traction Guest,Rails,Visitor Management System,https://tractionguest.com/,"Burnaby, Vancouver",Small,"Go, Postgresql, NodeJS, Redis, AWS, Docker, Heroku, Cordova",<a href='https://tractionguest.com/jobs/'>Traction Guest Jobs</a>
+TrustFligh,Rails,Aviation/Software,http://www.trustflight.com,Vancouver,Micro,,
+Unbounce,Rails,Marketing/Landing Pages,http://unbouncepages.com,Vancouver,Medium,,
 Venture Media Labs,Rails,Multiple Products,http://venturemedia.com,Vancouver,Small,"objective C, Java",
 VenueSpot,Rails,Bidding/Venues bid to host event,http://www.venuespot.co,Vancouver,Micro,Angular,
 Vin65,Rails,Shopping/Wine,https://www.vin65.com,Vancouver,Medium,"Angular, AWS, Aurora, Postgres, MSSQL, Circle CI",
