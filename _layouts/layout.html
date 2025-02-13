@@ -1,45 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
 
-    <link href="/css/vanruby.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-    <![endif]-->
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-bs-theme', theme);
+      })();
+    </script>
   </head>
 
 
   <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <a class="navbar-brand" href="/">#VanRuby</a>
-
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="/meetups.html"> Meetups</a></li>
-            <li><a href="/companies.html"> Companies</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+      <div class="container-lg">
+        <a class="navbar-brand fw-bold" href="{{ site.baseurl }}/">
+          <img src="/images/van_ruby_logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          VanRuby
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item d-lg-none">
+              <a class="btn btn-sm btn-danger d-block my-2" aria-current="page" target="_blank" href="https://lu.ma/vanruby">Join VanRuby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="{{ site.baseurl }}/">Home</a>
+            </li>
           </ul>
-        </div><!--/.nav-collapse -->
+          <button id="themeToggle" class="btn btn-sm d-none d-lg-block" type="button" aria-label="Toggle theme">
+            <svg class="bi theme-icon" width="1em" height="1em" fill="currentColor">
+              <use xlink:href="/images/icons/bootstrap-icons.svg#circle-half"></use>
+            </svg>
+          </button>
+          
+          <a href="https://lu.ma/vanruby" target="_blank" class="btn btn-sm btn-danger ms-2 d-none d-lg-block">Join VanRuby</a>
+        </div>
       </div>
     </nav>
 
@@ -47,21 +51,7 @@
       {{ content }}
     </div>
 
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/md5-function.js"></script>
-    <script src="js/application.js"></script>
-
-    <!-- GA Tracking -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-2959744-20', 'auto');
-      ga('send', 'pageview');
-
-    </script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/toggle-color-mode.js" defer></script>
   </body>
 </html>

@@ -3,70 +3,81 @@ layout: layout
 title: "VanRuby - Vancouver Ruby on Rails Group"
 ---
 
-<div class="jumbotron text-center">
-  <img src="images/vanruby_logo_new.png">
-  <br><br>
-  <p>
-    VanRuby is the longest running Ruby community in Vancouver, serving our members since 2007.
-  </p>
-  <br>
-  <a href="https://lu.ma/vanruby" class="btn btn-lg btn-danger">Subscribe to our calendar</a>
-</div>
-
-<div class="row">
-  <div class="col-md-4">
-    <h2><span class="glyphicon glyphicon-user"></span>
-     3000+ members
-    </h2>
-    <p>We get together once a month to talk about awesome things happening in the Ruby community. <a href="https://lu.ma/vanruby">Join our community</a>.</p>
-  </div>
-  <div class="col-md-4">
-    <h2><span class="glyphicon glyphicon-bullhorn"></span> Submit a Talk!</h2>
-    <p>Want to talk at an upcoming VanRuby? <a href="https://github.com/vanruby/talks">Check out our Talks repo</a> and submit a proposal. We welcome all backgrounds and levels of experience.
-  </div>
-  <div class="col-md-4">
-    <h2><span class="glyphicon glyphicon-heart"></span> Cool People</h2>
-    <p>If you love Ruby or hacking on things, you're in good company! Vancouver has a friendly, bustling Ruby and open source community.</p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-12">
-    <h2>Upcoming Events</h2>
-    <iframe
-      src="https://lu.ma/embed/calendar/cal-ek97jTetLbE3c6t/events?lt=light"
-      width="100%"
-      height="550"
-      frameborder="0"
-      style="border-radius: 4px; background-color: #eee;"
-      allowfullscreen=""
-      aria-hidden="false"
-      tabindex="0"
-    ></iframe>
-  </div>
-</div>
-
-<div class="row" style="margin-top: 50px;">
-  <div class="col-md-6">
-
-    <div class="well">
-      <h2>Connect</h2>
-
-      <p>
-        <strong>Mastodon:</strong> we are <a rel="me" href="https://ruby.social/@vanruby">vanruby@ruby.social</a>. Please hashtag #VanRuby when talking about anything VanRuby related - especially at our events.</p>
-      <p>
-        <strong>Slack:</strong>
-        We have a slack channel <a href="https://join.slack.com/t/rubycentralcommunity/shared_invite/zt-2uh1lvotg-227RO9FJYT_C9RLNiA8Bng">#meetup-vanruby</a> on the new Ruby Central Community slack.
-      </p>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="well">
-      <h2>Future Events</h2>
-      <p>Sign up at <a href="https://lu.ma/vanruby">Lu.ma</a></p>
-      <p>We host an event once per month with a focus on in-person networking, educational presentations, and fun!</p>
-
-      <p><a href="https://lu.ma/vanruby" class="btn btn-lg btn-danger">Subscribe to our calendar</a></p>
+<div class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 order-2 order-lg-1 d-flex flex-column pt-2 pb-1">
+        <p class="fs-4">VanRuby is the longest running Ruby programming language community in Vancouver, serving our members since 2007.</p>
+        <p class="fs-4">Join us to learn, network, and explore new opportunities.</p>
+        <a href="https://lu.ma/vanruby" target="_blank" class="btn btn-primary btn-lg btn-danger mt-auto align-self-lg-start">Join VanRuby</a>
+      </div>
+      <div class="col-lg-4 col-md-12 order-1 order-lg-2 d-flex flex-column justify-content-center">
+        <img src="/images/van_ruby_logo.svg" alt="Jumbotron Logo" height="200px">
+        <span class="text-center fs-1 text fw-bold">VanRuby</span>
+      </div>
     </div>
   </div>
 </div>
+
+<div class="row d-flex align-tems-stretch mb-4">
+  <div class="col-12 col-lg-6 d-flex flex-column mb-4 mb-lg-0">
+    <div class="card h-100 d-flex flex-column">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Engaging Speakers</h5>
+        <p class="card-text">VanRuby events thrive because of those who share their ideas, projects, and passion for Ruby. You could be next!</p>
+        <a href="https://github.com/vanruby/talks/issues/new?template=talk.yml" target="_blank" class="btn btn-secondary mt-auto">Submit a talk</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-6 d-flex flex-column">
+    <div class="card h-100 d-flex flex-column">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Community Driven</h5>
+        <p class="card-text">VanRuby would not exist without support from our sponsors. If your school or business could benefit from connecting with our community, we would love to hear from you.</p>
+        <a href="https://github.com/vanruby/talks/issues/new?template=sponsor.yml" target="_blank" class="btn btn-secondary mt-auto">Become a sponsor</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pb-2 pt-4 mb-4 bg-body-tertiary rounded-3 theme-dependent-bg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center mb-4">Upcoming Events</h2>
+        <iframe
+          src="https://lu.ma/embed/calendar/cal-ek97jTetLbE3c6t/events"
+          width="100%"
+          height="500"
+          frameborder="0"
+          style="border-radius: 6px;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const theme = document.documentElement.getAttribute('data-bs-theme');
+    const themeDependentBg = document.querySelector('.theme-dependent-bg');
+    const iframe = document.getElementById('eventsIframe');
+
+    if (theme === 'dark') {
+      themeDependentBg.style.backgroundColor = 'rgba(33, 35, 37, 1)';
+      iframe.onload = function() {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        iframeDocument.body.style.backgroundColor = 'rgba(33, 35, 37, 1)';
+      };
+    } else {
+      themeDependentBg.style.backgroundColor = 'rgba(244, 245, 246, 1)';
+      iframe.onload = function() {
+        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+        iframeDocument.body.style.backgroundColor = 'rgba(244, 245, 246, 1)';
+      };
+    }
+  });
+</script>
