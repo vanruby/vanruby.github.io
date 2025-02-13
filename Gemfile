@@ -1,11 +1,24 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-require 'json'
-require 'open-uri'
+source "https://rubygems.org"
 
-versions = JSON.parse(::URI.open('https://pages.github.com/versions.json').read)
-# gem 'github-pages', group: :jekyll_plugins
+gem "jekyll"
 
+gem "rubocop-jekyll"
 
-gem 'github-pages', versions['github-pages']
-gem 'webrick', '~> 1.8'
+# Required to fix Ruby standard library load warnings
+gem "base64"
+gem "benchmark"
+gem "csv"
+gem "logger"
+gem "ostruct"
+gem "bigdecimal"
+
+group :jekyll_plugins do
+  # Install Jekyll plugins here
+end
+
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end
