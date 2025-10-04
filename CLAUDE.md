@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-VanRuby is the website for Vancouver's Ruby community (vanruby.org), built with Jekyll static site generator. The site showcases meetup events, sponsors, and community information.
+VanRuby is the website for Vancouver's Ruby community (vanruby.org), built with Jekyll static site generator. The site showcases events, sponsors, and community information.
 
 ## Development Commands
 
@@ -24,26 +24,8 @@ bundle exec rubocop              # Run RuboCop linter
 ### Jekyll Static Site
 - Uses **rdiscount** markdown processor with smart extensions
 - Layouts in `_layouts/`: `layout.html` (main), `post.html` (blog posts)
-- Data files in `_data/`: `companies.csv`, `meetups.yml` (symlink to `meetup/meetups.yml`)
+- Data files in `_data/`: `companies.csv`
 - Generated site output in `_site/` (excluded from git)
-
-### Meetup Data Management
-The site maintains historical meetup data fetched from Meetup.com API:
-
-1. **fetch_meetups.rb** - Fetches events and comments from Meetup.com API
-   - Uses `bundler/inline` with `meetup_client` gem
-   - Requires `MEETUP_API_KEY` environment variable
-   - Fetches from 'vancouver-ruby' group (ID: 573925)
-   - Outputs to `raw_meetups.yml`
-
-2. **transform_meetups.rb** - Processes raw data into clean format
-   - Uses `bundler/inline` with `virtus` gem
-   - Reads from `meetups.yaml` (note: expects `.yaml` not `.yml`)
-   - Extracts slides (SpeakerDeck, SlideShare, Gist) and videos (YouTube)
-   - Filters out "Developer Night" and "Hack Night" events
-   - Outputs to `clean_meetups.yml`
-
-3. **_data/meetups.yml** - Symlink to `meetup/meetups.yml` for Jekyll consumption
 
 ### Frontend Stack
 - Bootstrap 5 for styling
@@ -53,7 +35,6 @@ The site maintains historical meetup data fetched from Meetup.com API:
 
 ### Key Pages
 - `index.html` - Homepage with hero, sponsors, stats, and event calendar
-- `meetups.html` - Historical meetup listings
 - `companies.html` - Companies using Ruby in Vancouver
 - `2014-heroes.html` - Historical tribute page
 
@@ -88,20 +69,17 @@ Follow the Conventional Commits specification for all commit messages.
 - **chore**: Other changes that don't modify src or test files
 
 ### Scopes (optional)
-- `meetups`: Meetup data management
 - `sponsors`: Sponsor-related changes
 - `content`: Website content updates
 - `deps`: Dependency updates
 
 ### Examples
 ```
-feat(meetups): add video extraction from Vimeo
 fix(sponsors): correct logo alignment on mobile
+feat(content): add new community section
 docs: update README with deployment instructions
 chore(deps): update jekyll to 4.3.0
 ```
 
 ## Important Notes
-- The transform script expects `meetups.yaml` but the actual file is `meetups.yml` - this inconsistency may cause errors
-- Meetup data scripts use inline Gemfiles, separate from main project dependencies
 - Sponsor logos are SVG files in `images/sponsors/`
