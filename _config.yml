@@ -11,6 +11,11 @@ permalink: /posts/:title
 rdiscount:
   extensions: [smart]
 
+# Sass/SCSS
+sass:
+  style: compressed
+  sass_dir: _sass
+
 # Collections
 collections:
   data:
