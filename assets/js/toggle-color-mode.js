@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
       // In system mode, use the system's color scheme preference
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       actualTheme = prefersDark ? 'dark' : 'light';
-      themeIcon.setAttribute('xlink:href', '/images/icons/bootstrap-icons.svg#circle-half');
+      themeIcon.setAttribute('xlink:href', '/assets/images/icons/bootstrap-icons.svg#circle-half');
     } else if (theme === 'light') {
-      themeIcon.setAttribute('xlink:href', '/images/icons/bootstrap-icons.svg#sun-fill');
+      themeIcon.setAttribute('xlink:href', '/assets/images/icons/bootstrap-icons.svg#sun-fill');
     } else if (theme === 'dark') {
-      themeIcon.setAttribute('xlink:href', '/images/icons/bootstrap-icons.svg#moon-stars-fill');
+      themeIcon.setAttribute('xlink:href', '/assets/images/icons/bootstrap-icons.svg#moon-stars-fill');
     }
 
     // Set the theme attribute on <html> (Bootstrap 5.3+)
