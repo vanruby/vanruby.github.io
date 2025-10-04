@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+  <div class="container-lg">
+    <a class="navbar-brand fw-bold" href="{{ site.baseurl }}/">
+      <img src="/assets/images/van_ruby_logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      VanRuby
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item d-lg-none">
+          <a class="btn btn-sm btn-danger d-block my-2" aria-current="page" target="_blank" href="https://lu.ma/vanruby">Join VanRuby</a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="{{ site.baseurl }}/">Home</a>
+        </li>
+         -->
+      </ul>
+      <button id="themeToggle" class="btn btn-sm d-none d-lg-block" type="button" aria-label="Toggle theme">
+        <svg class="bi theme-icon" width="1em" height="1em" fill="currentColor">
+          <use xlink:href="/assets/images/icons/bootstrap-icons.svg#circle-half"></use>
+        </svg>
+      </button>
+
+      <a href="https://lu.ma/vanruby" target="_blank" class="btn btn-sm btn-danger ms-2 d-none d-lg-block">Join VanRuby</a>
+    </div>
+  </div>
+</nav>

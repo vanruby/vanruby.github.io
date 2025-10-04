@@ -1,72 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/main.css" rel="stylesheet">
-    <link rel="me" href="https://ruby.social/@vanruby">
-
-    <script>
-      (function() {
-        const theme = localStorage.getItem('theme') || 'light';
-        document.documentElement.setAttribute('data-bs-theme', theme);
-      })();
-    </script>
+    {% include head.html %}
   </head>
 
-
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
-      <div class="container-lg">
-        <a class="navbar-brand fw-bold" href="{{ site.baseurl }}/">
-          <img src="/images/van_ruby_logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          VanRuby
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item d-lg-none">
-              <a class="btn btn-sm btn-danger d-block my-2" aria-current="page" target="_blank" href="https://lu.ma/vanruby">Join VanRuby</a>
-            </li>
-            <!--
-            <li class="nav-item">
-              <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="{{ site.baseurl }}/">Home</a>
-            </li>
-             -->
-          </ul>
-          <button id="themeToggle" class="btn btn-sm d-none d-lg-block" type="button" aria-label="Toggle theme">
-            <svg class="bi theme-icon" width="1em" height="1em" fill="currentColor">
-              <use xlink:href="/images/icons/bootstrap-icons.svg#circle-half"></use>
-            </svg>
-          </button>
-
-          <a href="https://lu.ma/vanruby" target="_blank" class="btn btn-sm btn-danger ms-2 d-none d-lg-block">Join VanRuby</a>
-        </div>
-      </div>
-    </nav>
+    {% include nav.html %}
 
     <div class="container theme-showcase" role="main">
       {{ content }}
     </div>
 
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
-        <a href="https://ruby.social/@vanruby" class="col-4 nav-link px-2 text-body-secondary">vanruby@ruby.social</a>
-
-        <a class="col-4 d-flex align-items-center justify-content-center link-body-emphasis text-decoration-none" href="{{ site.baseurl }}/">
-          <img src="/images/van_ruby_logo.svg" alt="Logo" width="60" height="48" class="d-inline-block align-text-top">
-        </a>
-
-       <p class="col-4 mb-0 text-body-secondary d-flex justify-content-end">© 2025 VanRuby</p>
-      </footer>
-    </div>
-
-    <script src="js/bootstrap.bundle.min.js" defer></script>
-    <script src="js/toggle-color-mode.js" defer></script>
+    {% include footer.html %}
   </body>
 </html>
