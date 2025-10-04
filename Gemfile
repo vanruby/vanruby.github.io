@@ -16,7 +16,8 @@ gem 'ostruct'
 gem 'rubocop'
 
 group :jekyll_plugins do
-  # Install Jekyll plugins here
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
