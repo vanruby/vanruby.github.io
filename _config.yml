@@ -1,4 +1,52 @@
+# Site Settings
+title: VanRuby
+description: Vancouver's Ruby Community - Connect, learn, and grow with Ruby enthusiasts and professionals in Vancouver
+url: "https://vanruby.ca"
+baseurl: ""
+timezone: America/Vancouver
+
+# Build Settings
 markdown: rdiscount
 permalink: /posts/:title
 rdiscount:
   extensions: [smart]
+
+# Collections
+collections:
+  data:
+    output: false
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - vendor/
+  - .bundle/
+  - .git/
+  - .gitignore
+  - .ruby-version
+  - .editorconfig
+  - .rubocop.yml
+  - node_modules/
+
+# Include
+include:
+  - .htaccess
+
+# SEO and Social
+author: VanRuby
+twitter:
+  username: vanruby
+  card: summary
+social:
+  name: VanRuby
+  links:
+    - https://ruby.social/@vanruby
+    - https://github.com/vanruby

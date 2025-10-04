@@ -1,0 +1,53 @@
+require:
+  - rubocop-jekyll
+
+AllCops:
+  TargetRubyVersion: 3.3
+  NewCops: enable
+  Exclude:
+    - 'vendor/**/*'
+    - '_site/**/*'
+    - '.bundle/**/*'
+    - 'node_modules/**/*'
+
+# Jekyll-specific
+Jekyll/NoPutsAllowed:
+  Enabled: true
+
+# Style
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+  EnforcedStyle: always
+
+# Metrics
+Metrics/LineLength:
+  Max: 120
+  Enabled: true
+
+Metrics/MethodLength:
+  Max: 25
+  Enabled: true
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - '**/*.gemspec'
+
+# Layout
+Layout/IndentationConsistency:
+  Enabled: true
+
+Layout/TrailingWhitespace:
+  Enabled: true
+
+Layout/EndOfLine:
+  Enabled: true
+  EnforcedStyle: lf
+
+# Documentation
+Style/Documentation:
+  Enabled: false
