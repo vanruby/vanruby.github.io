@@ -91,6 +91,10 @@ title: "VanRuby - Vancouver Ruby on Rails Group"
     object-fit: cover;
     object-position: center;
   }
+
+  .feature a:hover h3 {
+    color: #dc3545 !important;
+  }
 </style>
 
 <div class="container px-4 py-2" id="hanging-icons">
@@ -162,7 +166,7 @@ title: "VanRuby - Vancouver Ruby on Rails Group"
 {% assign silver_sponsors = site.data.companies | where: "sponsor_tier", "silver" %}
 {% if silver_sponsors.size > 0 %}
 <div class="container my-5">
-<h2 class="pb-2 border-bottom text-secondary">Silver Sponsors</h2>
+<h2 class="pb-2 border-bottom" style="color: #6c757d;">Silver Sponsors</h2>
 <div class="row g-5 py-5 row-cols-1 row-cols-lg-4">
   {% for company in silver_sponsors %}
   <div class="feature col">
