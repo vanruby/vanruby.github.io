@@ -21,7 +21,9 @@ title: "VanRuby - Employers"
 </div>
 
 <!-- Sponsor Companies Table -->
-{% assign sponsors = site.data.companies | where_exp: "company", "company.sponsor_tier == 'gold' or company.sponsor_tier == 'silver'" %}
+{% assign gold_sponsors = site.data.companies | where: "sponsor_tier", "gold" %}
+{% assign silver_sponsors = site.data.companies | where: "sponsor_tier", "silver" %}
+{% assign sponsors = gold_sponsors | concat: silver_sponsors %}
 {% if sponsors.size > 0 %}
 <div class="mb-5 mt-5">
   <h3 class="mb-3">
@@ -69,7 +71,12 @@ title: "VanRuby - Employers"
 {% endif %}
 
 <!-- All Other Companies Table -->
-{% assign non_sponsors = site.data.companies | where_exp: "company", "company.sponsor_tier != 'gold' and company.sponsor_tier != 'silver'" %}
+{% assign non_sponsors = "" | split: "" %}
+{% for company in site.data.companies %}
+  {% unless company.sponsor_tier == 'gold' or company.sponsor_tier == 'silver' %}
+    {% assign non_sponsors = non_sponsors | push: company %}
+  {% endunless %}
+{% endfor %}
 <div class="mb-4 mt-5">
   <h3 class="mb-3">
     Other Ruby Employers
