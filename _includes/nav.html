@@ -9,14 +9,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link {% if page.url == '/companies.html' %}active{% endif %}" href="{{ site.baseurl }}/companies.html">Get a Ruby Job</a>
+        </li>
         <li class="nav-item d-lg-none">
           <a class="btn btn-sm btn-danger d-block my-2" aria-current="page" target="_blank" href="https://lu.ma/vanruby">Join VanRuby</a>
         </li>
-        <!--
-        <li class="nav-item">
-          <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="{{ site.baseurl }}/">Home</a>
-        </li>
-         -->
       </ul>
       <button id="themeToggle" class="btn btn-sm d-none d-lg-block" type="button" aria-label="Toggle theme">
         <svg class="bi theme-icon" width="1em" height="1em" fill="currentColor">
