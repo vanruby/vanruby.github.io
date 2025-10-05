@@ -54,12 +54,14 @@ title: "VanRuby - Employers"
       <tbody>
         {% assign sorted_sponsors = sponsors | sort: "name" %}
         {% for company in sorted_sponsors %}
+          {% unless company.hide_from_jobs == 'true' %}
           <tr>
             <td><a href="{{ company.website }}" target="_blank" class="text-decoration-none fw-semibold">{{ company.name }}</a></td>
             <td class="d-none d-md-table-cell">{{ company.codebase }}</td>
             <td>{{ company.market }}</td>
             <td class="d-none d-md-table-cell">{{ company.team_size }}</td>
           </tr>
+          {% endunless %}
         {% endfor %}
       </tbody>
     </table>
@@ -73,7 +75,7 @@ title: "VanRuby - Employers"
 <!-- All Other Companies Table -->
 {% assign non_sponsors = "" | split: "" %}
 {% for company in site.data.companies %}
-  {% unless company.sponsor_tier == 'gold' or company.sponsor_tier == 'silver' %}
+  {% unless company.sponsor_tier == 'gold' or company.sponsor_tier == 'silver' or company.hide_from_jobs == 'true' %}
     {% assign non_sponsors = non_sponsors | push: company %}
   {% endunless %}
 {% endfor %}
