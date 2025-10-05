@@ -1,6 +1,7 @@
 name,codebase,market,website,location,team_size,sponsor_tier
 Amazon,Mixed,Tech/E-commerce,https://www.amazon.ca,Vancouver,Large,
 Block (Square),Ruby on Rails,FinTech,https://block.xyz,"Toronto, Vancouver",Large,
+BrainStation,Not Applicable,EdTech,https://brainstation.io,Vancouver,Medium,gold
 Clio,Ruby on Rails,Legal Tech,https://www.clio.com,"Burnaby, Vancouver, Calgary, Toronto",Large,gold
 Copper CRM,Ruby on Rails,SaaS/CRM,https://www.copper.com,Remote Canada,Medium,
 Diligent,Unknown,Governance,https://www.diligent.com,"Coal Harbour, Vancouver",Large,

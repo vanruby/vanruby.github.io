@@ -149,7 +149,9 @@ title: "VanRuby - Vancouver Ruby on Rails Group"
     <a href="{{ company.website }}" target="_blank"
       class="d-flex flex-column align-items-center text-decoration-none text-center">
       <div class="mb-3 text-body">
-        {% if company.name == "Clio" %}
+        {% if company.name == "BrainStation" %}
+        {% include sponsor_logos/brainstation.html %}
+        {% elsif company.name == "Clio" %}
         {% include sponsor_logos/clio.html %}
         {% elsif company.name == "Zayzoon" %}
         {% include sponsor_logos/zayzoon.html %}
