@@ -21,7 +21,7 @@ title: "VanRuby - Employers"
 </div>
 
 <!-- Sponsor Companies Table -->
-{% assign sponsors = site.data.companies | where: "sponsor", "yes" %}
+{% assign sponsors = site.data.companies | where_exp: "company", "company.sponsor_tier != ''" %}
 {% if sponsors.size > 0 %}
 <div class="mb-5 mt-5">
   <h3 class="mb-3">
@@ -69,7 +69,7 @@ title: "VanRuby - Employers"
 {% endif %}
 
 <!-- All Other Companies Table -->
-{% assign non_sponsors = site.data.companies | where_exp: "company", "company.sponsor != 'yes'" %}
+{% assign non_sponsors = site.data.companies | where_exp: "company", "company.sponsor_tier == ''" %}
 <div class="mb-4 mt-5">
   <h3 class="mb-3">
     Other Ruby Employers

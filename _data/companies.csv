@@ -1,59 +1,59 @@
-name,codebase,market,website,location,team_size,sponsor
-Amazon,Mixed,Tech/E-commerce,https://www.amazon.ca,Vancouver,Large
-Block (Square),Ruby on Rails,FinTech,https://block.xyz,"Toronto, Vancouver",Large
-Clio,Ruby on Rails,Legal Tech,https://www.clio.com,"Burnaby, Vancouver, Calgary, Toronto",Large,yes
-Copper CRM,Ruby on Rails,SaaS/CRM,https://www.copper.com,Remote Canada,Medium
-Diligent,Unknown,Governance,https://www.diligent.com,"Coal Harbour, Vancouver",Large
-domain7,Ruby on Rails,Digital Agency,https://www.versett.com,Vancouver (now Versett),Large
-E-xact Transactions,Unknown,FinTech,https://www.e-xact.com,Vancouver (now Paynt),Large
-Envisio,Unknown,GovTech,https://www.envisio.com,Vancouver,Medium
-Ethelo Decisions,Unknown,Decision Tech,https://www.ethelo.com,Vancouver,Small
-Files.com,Ruby on Rails,Cloud Storage,https://www.files.com,Remote Canada,Medium
-Foodee,Unknown,Food Delivery,https://www.foodee.com,Vancouver (now Sodexo),Large
-Fullscript,Ruby on Rails,HealthTech,https://fullscript.com,Remote Canada,Large
-Gen II Fund,Ruby on Rails,Venture Capital,https://www.gen2fund.com,Vancouver,Small,yes
-GitHub,Ruby on Rails,DevOps/Platform,https://github.com,Remote Worldwide,Large,yes
-GitLab,Ruby on Rails,DevOps,https://about.gitlab.com,Remote Worldwide,Large
-Global Fleet Management,Ruby on Rails,Fleet Management,https://www.positrace.com,Burnaby,Medium
-GoBolt,Ruby on Rails,Logistics,https://www.gobolt.com,Toronto,Medium
-Hiive,Unknown,FinTech,https://www.hiive.com,Vancouver,Medium
-IGENO,Unknown,Consultancy,https://www.igeno.com,Vancouver,Small
-Intergalactic Agency,Unknown,Digital Agency,https://www.intergalactic.agency,"Yaletown, Vancouver",Small
-IT Glue,Unknown,SaaS,https://www.itglue.com,Vancouver,Large
-Jane.app,Ruby on Rails,HealthTech,https://jane.app,North Vancouver,Large
-Kidzworld,Unknown,Social Media,https://www.kidzworld.com,Vancouver,Small
-Kit (ConvertKit),Ruby on Rails,Marketing,https://kit.com,Remote Worldwide,Medium
-L'Effet Monstre,Ruby on Rails,Web Agency,https://monstre.ca,Quebec City,Medium
-Latero Labs,Ruby on Rails,Consultancy,https://www.laterolabs.com,Vancouver,Large
-Mogo,Unknown,FinTech,https://www.mogo.ca,Vancouver,Large
-Molecular You,Ruby on Rails,HealthTech,https://www.molecularyou.com,Vancouver,Medium
-Mozilla,Ruby on Rails,Open Source,https://www.mozilla.org,Remote Canada,Large
-mybesthelper,Unknown,Marketplace,https://www.mybesthelper.com,Vancouver,Small
-Narvar,Ruby on Rails,E-commerce,https://www.narvar.com,Remote Canada,Large
-Netsign,Ruby on Rails,Consultancy,https://www.netsign.com,Vancouver,Small,yes
-Noomii,Unknown,Directory,https://www.noomii.com,Vancouver,Small
-Omnistream,Unknown,Communications,https://www.omnistream-communications.ca,Vancouver,Small
-PagerDuty,Ruby on Rails,DevOps/SaaS,https://www.pagerduty.com,"Toronto, Vancouver",Large
-PayrollHero,Unknown,HR Tech,https://payrollhero.com,"Whistler, Manila",Small
-Phoenix,Ruby on Rails,FinTech,https://www.phoenix.ca,Toronto,Small
-Rise People,Unknown,HR Tech,https://risepeople.com,"Vancouver, Burnaby",Medium
-Rootly,Ruby on Rails,DevOps,https://rootly.com,Remote North America,Small
-Ruby Central,Ruby,Open Source/Community,https://rubycentral.org,Remote Worldwide,Small,yes
-Safe Software,Ruby on Rails,Data/GIS,https://www.safe.com,"Surrey, Vancouver",Large
-Scribd,Ruby on Rails,Digital Media,https://tech.scribd.com,Vancouver,Large
-Sensor Tower,Ruby on Rails,Mobile Analytics,https://sensortower.com,Vancouver,Large
-Shopify,Ruby on Rails,E-commerce,https://www.shopify.com,Vancouver,Large
-Spacelist,Ruby on Rails,Real Estate Tech,https://www.spacelist.ca,Vancouver,Small
-Spark,Ruby on Rails,Sales/Marketing,https://www.sparksales.com,"Yaletown, Vancouver",Medium
-StackAdapt,Ruby on Rails,AdTech,https://www.stackadapt.com,Remote Canada,Large
-STAT Search Analytics,Ruby on Rails,SEO/Analytics,https://moz.com/products/api/stat,Vancouver (now Moz),Large
-TELUS Digital,Ruby on Rails,Digital Services,https://www.telus.com/digital,Vancouver,Large
-Thinkific,Ruby on Rails,EdTech,https://www.thinkific.com,Vancouver,Large
-Traction Guest,Unknown,Visitor Management,https://tractionguest.com,Burnaby (now ShieldCo),Large
-Unbounce,Mixed,Marketing Tech,https://unbounce.com,Vancouver (Remote),Large
-Versapay,Ruby on Rails,FinTech,https://versapay.com,Remote Canada,Medium
-WealthBar,Unknown,FinTech,https://www.cifinancial.com,Vancouver (now CI Direct),Large
-Wishpond,Ruby on Rails,Marketing SaaS,https://www.wishpond.com,"Vancouver, Coal Harbour",Large
-Workstream,Ruby on Rails,HR Tech,https://www.workstream.us,Vancouver (Remote),Medium
-Zayzoon,Ruby on Rails,FinTech,https://www.zayzoon.com,Calgary,Medium,yes
-Zipline,Ruby on Rails,Retail SaaS,https://www.getzipline.com,Remote Canada,Medium
+name,codebase,market,website,location,team_size,sponsor_tier
+Amazon,Mixed,Tech/E-commerce,https://www.amazon.ca,Vancouver,Large,
+Block (Square),Ruby on Rails,FinTech,https://block.xyz,"Toronto, Vancouver",Large,
+Clio,Ruby on Rails,Legal Tech,https://www.clio.com,"Burnaby, Vancouver, Calgary, Toronto",Large,gold
+Copper CRM,Ruby on Rails,SaaS/CRM,https://www.copper.com,Remote Canada,Medium,
+Diligent,Unknown,Governance,https://www.diligent.com,"Coal Harbour, Vancouver",Large,
+domain7,Ruby on Rails,Digital Agency,https://www.versett.com,Vancouver (now Versett),Large,
+E-xact Transactions,Unknown,FinTech,https://www.e-xact.com,Vancouver (now Paynt),Large,
+Envisio,Unknown,GovTech,https://www.envisio.com,Vancouver,Medium,
+Ethelo Decisions,Unknown,Decision Tech,https://www.ethelo.com,Vancouver,Small,
+Files.com,Ruby on Rails,Cloud Storage,https://www.files.com,Remote Canada,Medium,
+Foodee,Unknown,Food Delivery,https://www.foodee.com,Vancouver (now Sodexo),Large,
+Fullscript,Ruby on Rails,HealthTech,https://fullscript.com,Remote Canada,Large,
+Gen II Fund,Ruby on Rails,Venture Capital,https://www.gen2fund.com,Vancouver,Small,silver
+GitHub,Ruby on Rails,DevOps/Platform,https://github.com,Remote Worldwide,Large,silver
+GitLab,Ruby on Rails,DevOps,https://about.gitlab.com,Remote Worldwide,Large,
+Global Fleet Management,Ruby on Rails,Fleet Management,https://www.positrace.com,Burnaby,Medium,
+GoBolt,Ruby on Rails,Logistics,https://www.gobolt.com,Toronto,Medium,
+Hiive,Unknown,FinTech,https://www.hiive.com,Vancouver,Medium,
+IGENO,Unknown,Consultancy,https://www.igeno.com,Vancouver,Small,
+Intergalactic Agency,Unknown,Digital Agency,https://www.intergalactic.agency,"Yaletown, Vancouver",Small,
+IT Glue,Unknown,SaaS,https://www.itglue.com,Vancouver,Large,
+Jane.app,Ruby on Rails,HealthTech,https://jane.app,North Vancouver,Large,
+Kidzworld,Unknown,Social Media,https://www.kidzworld.com,Vancouver,Small,
+Kit (ConvertKit),Ruby on Rails,Marketing,https://kit.com,Remote Worldwide,Medium,
+L'Effet Monstre,Ruby on Rails,Web Agency,https://monstre.ca,Quebec City,Medium,
+Latero Labs,Ruby on Rails,Consultancy,https://www.laterolabs.com,Vancouver,Large,
+Mogo,Unknown,FinTech,https://www.mogo.ca,Vancouver,Large,
+Molecular You,Ruby on Rails,HealthTech,https://www.molecularyou.com,Vancouver,Medium,
+Mozilla,Ruby on Rails,Open Source,https://www.mozilla.org,Remote Canada,Large,
+mybesthelper,Unknown,Marketplace,https://www.mybesthelper.com,Vancouver,Small,
+Narvar,Ruby on Rails,E-commerce,https://www.narvar.com,Remote Canada,Large,
+Netsign,Ruby on Rails,Consultancy,https://www.netsign.com,Vancouver,Small,silver
+Noomii,Unknown,Directory,https://www.noomii.com,Vancouver,Small,
+Omnistream,Unknown,Communications,https://www.omnistream-communications.ca,Vancouver,Small,
+PagerDuty,Ruby on Rails,DevOps/SaaS,https://www.pagerduty.com,"Toronto, Vancouver",Large,
+PayrollHero,Unknown,HR Tech,https://payrollhero.com,"Whistler, Manila",Small,
+Phoenix,Ruby on Rails,FinTech,https://www.phoenix.ca,Toronto,Small,
+Rise People,Unknown,HR Tech,https://risepeople.com,"Vancouver, Burnaby",Medium,
+Rootly,Ruby on Rails,DevOps,https://rootly.com,Remote North America,Small,
+Ruby Central,Ruby,Open Source/Community,https://rubycentral.org,Remote Worldwide,Small,silver
+Safe Software,Ruby on Rails,Data/GIS,https://www.safe.com,"Surrey, Vancouver",Large,
+Scribd,Ruby on Rails,Digital Media,https://tech.scribd.com,Vancouver,Large,
+Sensor Tower,Ruby on Rails,Mobile Analytics,https://sensortower.com,Vancouver,Large,
+Shopify,Ruby on Rails,E-commerce,https://www.shopify.com,Vancouver,Large,
+Spacelist,Ruby on Rails,Real Estate Tech,https://www.spacelist.ca,Vancouver,Small,
+Spark,Ruby on Rails,Sales/Marketing,https://www.sparksales.com,"Yaletown, Vancouver",Medium,
+StackAdapt,Ruby on Rails,AdTech,https://www.stackadapt.com,Remote Canada,Large,
+STAT Search Analytics,Ruby on Rails,SEO/Analytics,https://moz.com/products/api/stat,Vancouver (now Moz),Large,
+TELUS Digital,Ruby on Rails,Digital Services,https://www.telus.com/digital,Vancouver,Large,
+Thinkific,Ruby on Rails,EdTech,https://www.thinkific.com,Vancouver,Large,
+Traction Guest,Unknown,Visitor Management,https://tractionguest.com,Burnaby (now ShieldCo),Large,
+Unbounce,Mixed,Marketing Tech,https://unbounce.com,Vancouver (Remote),Large,
+Versapay,Ruby on Rails,FinTech,https://versapay.com,Remote Canada,Medium,
+WealthBar,Unknown,FinTech,https://www.cifinancial.com,Vancouver (now CI Direct),Large,
+Wishpond,Ruby on Rails,Marketing SaaS,https://www.wishpond.com,"Vancouver, Coal Harbour",Large,
+Workstream,Ruby on Rails,HR Tech,https://www.workstream.us,Vancouver (Remote),Medium,
+Zayzoon,Ruby on Rails,FinTech,https://www.zayzoon.com,Calgary,Medium,gold
+Zipline,Ruby on Rails,Retail SaaS,https://www.getzipline.com,Remote Canada,Medium,
