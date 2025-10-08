@@ -6,7 +6,7 @@ GEM
     ast (2.4.3)
     base64 (0.3.0)
     benchmark (0.4.1)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.0)
     bootstrap (5.3.5)
       popper_js (>= 2.11.8, < 3)
     colorator (1.1.0)
@@ -132,4 +132,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.4.20
+   2.7.2
