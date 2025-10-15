@@ -12,7 +12,7 @@ title: "VanRuby - Vancouver Ruby on Rails Group"
           Ruby enthusiasts and professionals in Vancouver. Whether you are a beginner or a seasoned expert, our events,
           talks, and networking opportunities help you stay ahead in the world of Ruby.</p>
         <a href="https://lu.ma/vanruby" target="_blank"
-          class="btn btn-primary btn-lg btn-danger mt-auto align-self-lg-start">Join VanRuby</a>
+          class="btn btn-primary btn-lg btn-primary mt-auto align-self-lg-start">Join VanRuby</a>
       </div>
       <div class="col-lg-5 col-md-12 order-1 order-lg-2 d-flex flex-column justify-content-center mb-4 mb-lg-0">
         <iframe src="https://lu.ma/embed/calendar/cal-ek97jTetLbE3c6t/events?compact=true" width="100%" height="325px"
@@ -142,7 +142,7 @@ title: "VanRuby - Vancouver Ruby on Rails Group"
 {% assign gold_sponsors = site.data.companies | where: "sponsor_tier", "gold" %}
 {% if gold_sponsors.size > 0 %}
 <div class="container my-5">
-<h2 class="pb-2 border-bottom text-warning">Gold Sponsors</h2>
+<h2 class="pb-2 border-bottom">Gold Sponsors</h2>
 <div class="row g-5 py-5 row-cols-1 row-cols-lg-3">
   {% for company in gold_sponsors %}
   <div class="feature col">
@@ -169,7 +169,7 @@ title: "VanRuby - Vancouver Ruby on Rails Group"
 {% assign silver_sponsors = site.data.companies | where: "sponsor_tier", "silver" %}
 {% if silver_sponsors.size > 0 %}
 <div class="container my-5">
-<h2 class="pb-2 border-bottom" style="color: #6c757d;">Silver Sponsors</h2>
+<h2 class="pb-2 border-bottom">Silver Sponsors</h2>
 <div class="row g-5 py-5 row-cols-1 row-cols-lg-4">
   {% for company in silver_sponsors %}
   <div class="feature col">
